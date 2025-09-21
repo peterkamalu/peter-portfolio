@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      
+        
+        .btn-divs{
+            display: flex;
+            flex-direction: flex;
+            justify-content: space-between;
+            flex: .5;
+            
+            
+            position: relative;
+    
+    
+        }
+        /* after the btn divs i styled  the live demo button */
+
+    </style>
+    <body>
+        <header>
+        
+                <a href="index.html"><img src="images/28c82aa7-4497-4617-8db1-ab64f2def3ca mr ucchenna logo.jpg"  class="logo" alt="thelogo" width="75"></a>
+                <ul class="nav-menu">
+                        <li><a href="#index" class="nav-link">Home</a></li>
+                        <li><a href="#contact" class="nav-link">contact</a></li>
+                        <li><a href="#projects" class="nav-link">projects</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                </ul>
+            
+  
+                 <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </button>
+
+        </header>
+        <!-- the first section is here the home page -->
+        <hr>
+        <section id="index" class="section_container" >
+            <div class="content_div">
+                <h2> my name is peter<span style="color:red;">kamalu</span></h2>
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif;font-weight: 100;" >i am an aspiring web developer with interests in html,css and javascript.i am also versatile in bootstrap css,tailwind css ,reactjs,including javascript and knowledge of github.programmin also known as coding is rewarding if mastered i am very passionate about crafting applications that offer a seamless user interface experience on mobile devices  and desktop programming requires tough mental abilities and perseverance  my journey into the tech space  has bben a roller coaster but my  penchant for designing web based applications  with clean and slek user interface stands out</p>
+
+            </div><br>
+            <div class="image_div">
+                <img src="images/IMG-20250817-WA0047.jpg" width="65%"  alt="pics">
+             
+            </div>
+        </section>
+     
+        <section id="contact" class="second-section">
+            
+        </section>
+         <section id="contact" style="border: 1px solid; width: 90%; margin: 4em 0; height:570px; background-color: lab(90.65% 3.39 1.2); text-align: center; ">
+                    <h3 style="font-family: 'Times New Roman', Times, serif;">GETIN TOUCH <span style="color: darkturquoise; text-decoration: underline; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">RIGHT HERE</span> </h3><br><br>
+                    <hr>
+                    <h4 style   ="padding-top: 2em; font-weight: lighter; text-transform: uppercase; text-decoration: underline;">kindly send me a message</h4><br><br>
+                        
+                <form >
+                        <div>
+                            <div>
+                             <input type="text" style="height: 4.5em; width: 80%;border-radius: 9px; background-color: lightblue;padding: 10px; margin:0.75px; box-sizing: border-box    ;" placeholder=" your name"><br><br>
+                            </div>
+                            <div>
+                             <div>
+                                <input type="text" style="height: 4.5em; width: 80%;border-radius: 9px; background-color: lightblue;padding: 10px; margin:0.75px; box-sizing: border-box   ;" placeholder=" your email"><br><br> 
+                            </div>
+                           <div>
+                            <input type="text" style="height: 4.5em; width: 80%; border-radius: 9px; background-color: lightblue;padding: 10px; margin:0.75px; box-sizing: border-box   ;" placeholder=" your number"><br><br><br>
+                            </div>
+                            <textarea placeholder="enter your message"></textarea><br><br><br>
+                            <button type="submit" class="btn-btn">submit</button>
+                        </div>
+                </form>
+       
+            </section>
+              <!--here is third section and it contains projects!-->
+              
+             <section id="projects"   class="third-section">
+                  <p style="font-size: 1em; text-align: center; text-decoration: underline;">check out some latest <span style="color:lightblue;">projects</span> </p>
+                  <!-- i create a div that houses botht theimages first and then the button -->
+                   <!-- the name of the div is card container the parent div -->
+                <div class="card-container">
+                    <div class="img-titlediv"> 
+                          <img src="images/Screenshot (69).png" width="308"  alt="a logo image">  
+                          <p style="text-align: center; font-size: 1.5em;">my web project</p>
+                         <div class="btns" style="display: flex; flex-direction: row; justify-content: space-between; ">
+                            <a href="https://github.com/peterkamalu">
+                                 <button id="mybtn" style="position: absolute; border: 1px black solid; width: 38%; align-items: center; border-radius: 37px 0 37px 0; padding: 1em 1.3em;margin-top: 1em; ">view on github</button>
+                            </a>
+                            
+                            <button style=" display: inline-block;text-align: center; border: none; padding: 15px 30px; cursor: pointer; position: relative; border-radius: 30px; ">live demo</button>
+                        </div> 
+                    </div>     
+                    <div class="img-titlediv"> 
+                          <img src="images/Screenshot (69).png" width="308"  alt="a logo image">  
+                          <p style="text-align: center; font-size: 1.5em;">my web project</p> 
+                           <div class="btns" style="display: flex; flex-direction: row; justify-content: space-between; ">
+                            <a href="https://github.com/peterkamalu">
+                                 <button id="mybtn" style="position: absolute; border: 1px black solid; width: 38%; align-items: center; border-radius: 37px 0 37px 0; padding: 1em 1.3em;margin-top: 1em; ">view on github</button>
+                            </a>         
+                            <button style=" display: inline-block;text-align: center; border: none; padding: 15px 30px; cursor: pointer; position: relative; border-radius: 30px; ">live demo</button>
+                        </div> 
+                               
+                    </div> 
+                
+                        <div class="img-titlediv"> 
+                          <img src="images/myscreensaver.png" width="308" alt="mypictures">
+                         <div style="display: flex; flex-direction: row; justify-content: space-between; ">
+                            <a href="https://github.com/peterkamalu">
+                                 <button id="mybtn" style="position: absolute; border: 1px black solid; width: 38%; align-items: center; border-radius: 37px 0 37px 0; padding: 1em 1.3em;margin-top: 1em; ">view on github</button>
+                            </a>
+                            
+                            
+                            <button style=" display: inline-block;text-align: center; border: none; padding: 15px 30px; cursor: pointer; position: relative; border-radius: 30px; ">live demo</button>
+                        </div>                      
+                      
+                    </div>
+                      <div class="img-titlediv"> 
+                          <img src="images/WhatsApp Image 2025-09-10 at 7.59.21 AM (4).jpeg" width="308"  alt="a logo image"> 
+                           <div class="btns" style="display: flex; flex-direction: row; justify-content: space-between; ">
+                            <a href="https://github.com/peterkamalu">
+                                 <button id="mybtn" style="position: absolute; border: 1px black solid; width: 38%; align-items: center; border-radius: 37px 0 37px 0; padding: 1em 1.3em;margin-top: 1em; ">view on github</button>
+                            </a>   
+                            <button style=" display: inline-block;text-align: center; border: none; padding: 15px 30px; cursor: pointer; position: relative; border-radius: 30px; ">live demo</button>
+                        </div> 
+        
+          
+                    </div>      
+                    
+                   
+                </div> 
+                         
+                             
+            </section>
+          
+          <!--  iwill copy and paste fron there -->
+              <!--rather than putting br u put margin to give space below-->
+        
+       
+        <script>
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            // Close mobile menu when clicking on a link
+            document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            }));
+        </script>   
+    </body>
+</html>

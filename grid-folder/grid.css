@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    gap: 2em;
+    text-align: center;
+    
+}
+.div_class{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}
+.div_class::after:hover{
+    content: peter;
+    display: block;
+    width: 8em;
+    background-color: black;
+    height: 3px;
+    
+
+}
+
+
+@media(max-width:375px){
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5em;
+    }
+    .div_class{
+        width: 90%;
+        height: 100px;
+        background-color: yellow;
+
+    }
+
+}
+
