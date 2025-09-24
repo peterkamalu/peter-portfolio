@@ -62,80 +62,87 @@
      
         <section id="contact" class="second-section">
             
-        </section>
-         <section id="contact" style="border: 1px solid; width: 90%; margin: 4em 0; height:570px; background-color: lab(90.65% 3.39 1.2); text-align: center; ">
-                    <h3 style="font-family: 'Times New Roman', Times, serif;">GETIN TOUCH <span style="color: darkturquoise; text-decoration: underline; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">RIGHT HERE</span> </h3><br><br>
+         <section class="cont-sect" id="contact" >
+                    <h3 style="font-family: 'Times New Roman', Times, serif;font-size: 1em; text-align: center; padding-top: 2em;">GETIN TOUCH <span style="color: darkturquoise; text-decoration: underline; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">RIGHT HERE</span> </h3><br><br>
                     <hr>
-                    <h4 style   ="padding-top: 2em; font-weight: lighter; text-transform: uppercase; text-decoration: underline;">kindly send me a message</h4><br><br>
+                    <h4 style   ="padding-top: 2em; font-weight: lighter; text-transform: uppercase; text-decoration: underline; text-align: center;">kindly send me a message</h4><br><br>
                         
-                <form >
-                        <div>
+                <form class="form-section" >
+
                             <div>
-                             <input type="text" style="height: 4.5em; width: 80%;border-radius: 9px; background-color: lightblue;padding: 10px; margin:0.75px; box-sizing: border-box    ;" placeholder=" your name"><br><br>
+                                <input type="text" placeholder="enter your first name">
+        
                             </div>
                             <div>
+                                <input type="text" placeholder="enter your last name">
+                            </div>
                              <div>
-                                <input type="text" style="height: 4.5em; width: 80%;border-radius: 9px; background-color: lightblue;padding: 10px; margin:0.75px; box-sizing: border-box   ;" placeholder=" your email"><br><br> 
-                            </div>
-                           <div>
-                            <input type="text" style="height: 4.5em; width: 80%; border-radius: 9px; background-color: lightblue;padding: 10px; margin:0.75px; box-sizing: border-box   ;" placeholder=" your number"><br><br><br>
-                            </div>
-                            <textarea placeholder="enter your message"></textarea><br><br><br>
-                            <button type="submit" class="btn-btn">submit</button>
-                        </div>
+                                <input type="text" placeholder="enter your email">
+                            </div>                                   
                 </form>
        
             </section>
               <!--here is third section and it contains projects!-->
               
              <section id="projects"   class="third-section">
-                  <p style="font-size: 1em; text-align: center; text-decoration: underline;">check out some latest <span style="color:lightblue;">projects</span> </p>
+                  <p style="font-size: 1em; text-align: center; text-decoration: underline;padding: 1.5em;">check out some latest <span style="color:lightblue;">projects</span> </p>
                   <!-- i create a div that houses botht theimages first and then the button -->
                    <!-- the name of the div is card container the parent div -->
                 <div class="card-container">
+                    <!-- first div of image -->
                     <div class="img-titlediv"> 
                           <img src="images/Screenshot (69).png" width="308"  alt="a logo image">  
                           <p style="text-align: center; font-size: 1.5em;">my web project</p>
-                         <div class="btns" style="display: flex; flex-direction: row; justify-content: space-between; ">
+                          <div class="buttons-section">
                             <a href="https://github.com/peterkamalu">
-                                 <button id="mybtn" style="position: absolute; border: 1px black solid; width: 38%; align-items: center; border-radius: 37px 0 37px 0; padding: 1em 1.3em;margin-top: 1em; ">view on github</button>
+                                 <button class="github-button">view on github</button>
                             </a>
                             
-                            <button style=" display: inline-block;text-align: center; border: none; padding: 15px 30px; cursor: pointer; position: relative; border-radius: 30px; ">live demo</button>
-                        </div> 
-                    </div>     
+                            
+                            <button class="demo-button">Live demo</button>
+                        </div>                      
+                        
+                            
+    
+                    </div>    
+                     <!--second div of image  -->
                     <div class="img-titlediv"> 
                           <img src="images/Screenshot (69).png" width="308"  alt="a logo image">  
                           <p style="text-align: center; font-size: 1.5em;">my web project</p> 
-                           <div class="btns" style="display: flex; flex-direction: row; justify-content: space-between; ">
+                        <div class="buttons-section">
                             <a href="https://github.com/peterkamalu">
-                                 <button id="mybtn" style="position: absolute; border: 1px black solid; width: 38%; align-items: center; border-radius: 37px 0 37px 0; padding: 1em 1.3em;margin-top: 1em; ">view on github</button>
-                            </a>         
-                            <button style=" display: inline-block;text-align: center; border: none; padding: 15px 30px; cursor: pointer; position: relative; border-radius: 30px; ">live demo</button>
-                        </div> 
-                               
+                                 <button class="github-button">view on github</button>
+                            </a>              
+                            <button class="demo-button">Live demo</button>
+                        </div>                      
+
                     </div> 
+                    <!-- third div of image -->
                 
                         <div class="img-titlediv"> 
                           <img src="images/myscreensaver.png" width="308" alt="mypictures">
-                         <div style="display: flex; flex-direction: row; justify-content: space-between; ">
+                         <div class="buttons-section">
                             <a href="https://github.com/peterkamalu">
-                                 <button id="mybtn" style="position: absolute; border: 1px black solid; width: 38%; align-items: center; border-radius: 37px 0 37px 0; padding: 1em 1.3em;margin-top: 1em; ">view on github</button>
+                                 <button class="github-button">view on github</button>
                             </a>
                             
                             
-                            <button style=" display: inline-block;text-align: center; border: none; padding: 15px 30px; cursor: pointer; position: relative; border-radius: 30px; ">live demo</button>
+                            <button class="demo-button">Live demo</button>
                         </div>                      
                       
                     </div>
-                      <div class="img-titlediv"> 
+                    <!-- fourth div -->
+                     <div class="img-titlediv"> 
                           <img src="images/WhatsApp Image 2025-09-10 at 7.59.21 AM (4).jpeg" width="308"  alt="a logo image"> 
-                           <div class="btns" style="display: flex; flex-direction: row; justify-content: space-between; ">
+                          <div class="buttons-section">
                             <a href="https://github.com/peterkamalu">
-                                 <button id="mybtn" style="position: absolute; border: 1px black solid; width: 38%; align-items: center; border-radius: 37px 0 37px 0; padding: 1em 1.3em;margin-top: 1em; ">view on github</button>
-                            </a>   
-                            <button style=" display: inline-block;text-align: center; border: none; padding: 15px 30px; cursor: pointer; position: relative; border-radius: 30px; ">live demo</button>
-                        </div> 
+                                 <button class="github-button">view on github</button>
+                            </a>
+                            
+                            
+                            <button class="demo-button">Live demo</button>
+                        </div>                      
+                          
         
           
                     </div>      
