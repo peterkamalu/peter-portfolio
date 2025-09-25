@@ -11,15 +11,12 @@
             margin: 0;
             padding: 0;
         }
-      
         
         .btn-divs{
             display: flex;
             flex-direction: flex;
             justify-content: space-between;
             flex: .5;
-            
-            
             position: relative;
     
     
@@ -29,7 +26,6 @@
     </style>
     <body>
         <header>
-        
                 <a href="index.html"><img src="images/28c82aa7-4497-4617-8db1-ab64f2def3ca mr ucchenna logo.jpg"  class="logo" alt="thelogo" width="75"></a>
                 <ul class="nav-menu">
                         <li><a href="#index" class="nav-link">Home</a></li>
@@ -37,8 +33,6 @@
                         <li><a href="#projects" class="nav-link">projects</a></li>
                         <li><a href="#about" class="nav-link">About</a></li>
                 </ul>
-            
-  
                  <button class="hamburger">
                     <span></span>
                     <span></span>
@@ -50,8 +44,8 @@
         <hr>
         <section id="index" class="section_container" >
             <div class="content_div">
-                <h2> my name is peter<span style="color:red;">kamalu</span></h2>
-                    <p style="font-family: Georgia, 'Times New Roman', Times, serif;font-weight: 100;" >i am an aspiring web developer with interests in html,css and javascript.i am also versatile in bootstrap css,tailwind css ,reactjs,including javascript and knowledge of github.programmin also known as coding is rewarding if mastered i am very passionate about crafting applications that offer a seamless user interface experience on mobile devices  and desktop programming requires tough mental abilities and perseverance  my journey into the tech space  has bben a roller coaster but my  penchant for designing web based applications  with clean and slek user interface stands out</p>
+                <h2> my name is peter<span style="color:red;">kamalu</span></h2><br>
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif;font-weight: 100;" >i am an aspiring web developer with interests in html,css and javascript.i am also versatile in bootstrap css,tailwind css ,reactjs,including javascript and knowledge of github.programmin also known as coding is rewarding if mastered i am very passionate about crafting applications that offer a seamless user interface experience on mobile devices  and desktop programming requires tough mental abilities and perseverance  my journey into the tech space  has bben a roller coaster but my  penchant for designing web based applications  with  the basics of programming languages is exceptional and i also possess knowledge og git and github The journey as a Front-End Developer is marked by a distinct set of skills and expertise that contribute to success in various roles. This includes meticulous execution, attention to detail, and a proactive approach to problem-solving. Front-end developers often thrive in fast-paced environments and demonstrate a proven ability to manage multiple priorities simultaneously. The capacity to prioritise tasks and consistently meet deadlines is integral in supporting teams and ensuring smooth organisational operations. Additionally, exceptional support can be provided to senior executives and teams by leveraging communication tools for seamless collaboration and efficient information flow. Furthermore, being a collaborative team player and continually seeking opportunities for organisational improvement and growth are key attributes in this field.ean and slek user interface stands out </p>
 
             </div><br>
             <div class="image_div">
@@ -78,14 +72,20 @@
                             </div>
                              <div>
                                 <input type="text" placeholder="enter your email">
-                            </div>                                   
+                            </div>
+                                <textarea style="background-color: #ffff; ">Type your message here</textarea>
+                            </diV> 
+                            <div>
+                                <button  class="form-btn">submit</button>
+                            </div>  
+                                                            
                 </form>
        
-            </section>
+            </section><br>
               <!--here is third section and it contains projects!-->
               
              <section id="projects"   class="third-section">
-                  <p style="font-size: 1em; text-align: center; text-decoration: underline;padding: 1.5em;">check out some latest <span style="color:lightblue;">projects</span> </p>
+                  <p style="font-size: 1em; text-align: center; text-decoration: underline;padding: 1.5em; margin-top: 4em;">check out some latest <span style="color:lightblue;">projects</span> </p>
                   <!-- i create a div that houses botht theimages first and then the button -->
                    <!-- the name of the div is card container the parent div -->
                 <div class="card-container">
@@ -142,21 +142,16 @@
                             
                             <button class="demo-button">Live demo</button>
                         </div>                      
-                          
-        
-          
-                    </div>      
-                    
-                   
-                </div> 
-                         
-                             
+                    </div>           
+                </div>  
             </section>
-          
-          <!--  iwill copy and paste fron there -->
-              <!--rather than putting br u put margin to give space below-->
+            <section>
+                <footer class="footer">
+                     <p>&copy; 2025 cholan tech solutions. All rights reserved.</p>
+                </footer>
+            </section>
+
         
-       
         <script>
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('.nav-menu');
@@ -172,5 +167,7 @@
                 navMenu.classList.remove('active');
             }));
         </script>   
+       
+          
     </body>
 </html>
