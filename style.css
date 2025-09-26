@@ -47,9 +47,6 @@ ul li a{
 
 }
 
-
-/* explain border radius*/
-
 ul li a:hover{
      text-decoration: none;
     border-radius: 9px;
@@ -59,24 +56,6 @@ ul li a:hover{
     padding: 12px;
      transform: scale(1.1);
 }
-.btn{
-    text-align: center;
-     background-color:white ;
-    color: lightblue;
-    border: none;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 4px 10px ;
-    text-align: center;
-    
-}
-
-  
-
-    
-
-
-
 
 /*using the hover elements before and after here*/
 
@@ -107,19 +86,12 @@ ul li a:hover{
     display: flex;
 flex: .5;
 }
-.btn-btn{
-    background-color: white;
-    color: lightblue;
-    padding: 8px;
 
-}
 .btn-btn:hover{
     background-color: blue;
 }
 /* this is for the projects for those image there */
 /* .section-column */
-
-
 
 .third-section{
     height: 50vh;
@@ -131,33 +103,17 @@ flex: .5;
     border-radius: 2px solid;
     background-color: lightblue;
     margin: 2em;
-    box-sizing: border-box;
-
-
 }
 
 .div-img{
     height: 45%;
     border-radius: 1px solid;
     width: 40%;
-    
-    margin: 2em;
-    
+    margin: 2em;  
 }
 .img-div:hover{
     transform: scale(1.1);
 }
-
-.img-div:hover::after{
-    width: 0;
-    
-    display: block;
-    
-}
-
-    /* tyle="display: flex; flex-direction: column; align-items: center; justify-content: center;padding-left: 6em; border-radius: 1px solid; height: 2em */
-    
-
 
 /* this is for section one image styling */
 .section-one{
@@ -168,15 +124,6 @@ flex: .5;
     margin: 18px,20px;
     border-radius: 1px solid;
     gap: 2em;
-}
-.footer{
-    background-color: blac;
-    color:#f4f4f4;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 .box-one{
@@ -196,27 +143,8 @@ flex: .5;
     background-color: lightblue;
      transform: scale(1.1);
 
-
 }
 
-footer{
-    background-color: black;
-    text-align: center;
-    padding: 20px 0;
-    bottom: 0;
-    width: 100%;
-}
-
-textarea{
-    width: 80%;
-    border-radius: 8px;
-    font-size: 16px;
-    resize: vertical;
-    text-align: center;
-    height: 3.5em;
-    background-color: lightskyblue;
-
-}
 .hamburger{
     display: none;
     flex-direction: column;
@@ -265,7 +193,7 @@ textarea{
     background-color: lab(90.65% 3.39 1.2);
     align-items: center;
     border: 1px solid;
-    margin: 
+
     padding: 4em;
 
 }
@@ -288,9 +216,9 @@ input{
 }
 textarea{
     width: 90%;
-    
     border: 1px solid; 
-    margin: 0.50em;
+    margin: 1.4em 1.3em;
+
 }
 .form-btn{
     width: 90%;
@@ -308,11 +236,10 @@ textarea{
     
 }
 
-
-
   .card-container{
             display: grid;
             grid-template-columns: auto auto auto;
+        
             flex-direction: row;
             justify-content: center;
             gap: 2em;  
