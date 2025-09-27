@@ -2,11 +2,18 @@
     padding: 0;
     margin: 0;
 }
+html,  body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    
+}
 body{
     background-color: white;
     scroll-behavior: smooth;
     height: auto;
-    
 }
 /* i removed the height from auto */
 header{
@@ -94,7 +101,8 @@ flex: .5;
 /* .section-column */
 
 .third-section{
-    height: 50vh;
+    height: auto;
+    margin: 4em 0;
 }
 
 .section-column{
@@ -149,7 +157,7 @@ flex: .5;
     display: none;
     flex-direction: column;
     cursor: pointer;
-    background-color: none;
+    background-color: #fff;
     border: none;
     padding: 0;
 
@@ -181,29 +189,18 @@ flex: .5;
 .nav-menu{
     position: relative;
 }
-/* this is styling for the second section containING THE FORM */
-.second-section{
-    height: 80vh;
-    background-color: lightblue;
-    margin: 3em 4em;
-    
-    
-}
+
 .cont_sect{
     height: 40vh;
     background-color: lab(90.65% 3.39 1.2);
     align-items: center;
     border: 1px solid;
-
     padding: 4em;
-
 }
 .form-section{
-    height: 40vh;
-    border: 2px solid white;
-    
-    box-sizing: border-box;
-    box-sizing: content-box;
+    height: auto;
+    background-color: lightgray;
+    border-radius: 10px;
     margin: 3em 2.5em;
     padding: 1em 1.5em;
 }
@@ -237,62 +234,58 @@ textarea{
     
 }
 
-  .card-container{
-            display: grid;
-            grid-template-columns: auto auto auto;
-        
-            flex-direction: row;
-            justify-content: center;
-            gap: 2em;  
-            padding: 1em,1.3em;
-            text-align: center;
-            margin: 1em 1.3em;
-            border-radius: 30px 0 30px 0;
-             
-        }
-         .img-titlediv{
-            border: 1px solid;
-            border-radius: 37px 0 37px 0;
-            height: auto;
-            width: 23em;
-            padding: 1em;
-            
-            
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;  
+    padding: 1em,1.3em;
+    text-align: center;
+    margin: 1em 1.3em;
+    border-radius: 30px 0 30px 0;
+}
+.img-titlediv{
+    border: 1px solid;
+    border-radius: 37px 0 37px 0;
+    height: auto;
+    width: 23em;
+    padding: 1em;
+}
+.buttons-section{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    padding: 1em;
+    text-align: center;
+}
 
-         }
-         .buttons-section{
-            display: flex;
-            flex-direction: row;
-            position: relative;
-            justify-content: space-between;
-            padding: 1em;
-            text-align: center;
+.github-button{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 33px 0 33px 0;
+    padding: 1em;
+    cursor: pointer;
+    background-color: white;
+}
+.demo-button{
+    border: none;
+    text-align: center;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-color: #fff;    
+}
 
-         }
-         .github-button{
-            border: 1px solid black;
-            width: 100%;
-            border-radius: 33px 0 33px 0;
-            padding: 1em;
-            cursor: pointer;
-            background-color: white;
-         }
-         .demo-button{
-            
-            border: none;
-            text-align: center;
-            padding: 1em;
-            box-sizing: border-box;
-            border-radius: 0;
-            background-color: #fff;    
-         }
-
-         .footer{
+.footer{
     background-color:lightgray;
     color:white;
     text-align: center;
     padding: 30px 0;
     width: 100%;
+    position: relative;
 }
         
             
@@ -316,7 +309,7 @@ textarea{
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 90px;
         flex-direction: column;
         background: white;
         width: 99%;
