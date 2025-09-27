@@ -162,6 +162,7 @@ flex: .5;
     margin: 3px 0;
     transition: all 0.3s;
     border-radius: 2px;
+
     /*  the  margin refers to the inside distance betwen the hamburger three span */
 }
 .hamburger.active span:nth-child(1) {
