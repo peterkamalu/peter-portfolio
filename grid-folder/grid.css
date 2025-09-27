@@ -25,12 +25,32 @@
     background-color: blue;
 
 }
-.div-class{
+.dirv{
     content:peter ;
+    display: inline-block;
     width: 10em;
     height: 3px;
+    color: black;
+    padding: 10px;
+}
+.dirv::after{
+     content:peter ;
+    display: inline-block;
+    width: 10em;
+    height: 3px;
+    color: black;
+    padding: 10px;
+}
+.dirv:hover ::after{
+     content:peter ;
+    display: inline-block;
+    width: 10em;
+    height: 3px;
+    color: black;
+    padding: 10px;
 
 }
+
 
     
 
