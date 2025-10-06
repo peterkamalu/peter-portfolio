@@ -274,7 +274,6 @@ textarea{
     border: none;
     text-align: center;
     padding: 1em;
-    box-sizing: border-box;
     border-radius: 0;
     background-color: #fff;    
 }
