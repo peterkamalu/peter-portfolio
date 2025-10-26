@@ -78,6 +78,7 @@ ul li a:hover{
     display: flex;
     flex-direction: row;
     flex: 1;
+    margin-bottom: 4em;
 }
 .content_div{
     display: flex;
@@ -91,7 +92,7 @@ ul li a:hover{
 }
 .image_div{
     display: flex;
-flex: .5;
+    flex: .5;
 }
 
 .btn-btn:hover{
@@ -99,6 +100,18 @@ flex: .5;
 }
 /* this is for the projects for those image there */
 /* .section-column */
+
+.url-image{
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    
+}
+
 
 .third-section{
     height: auto;
@@ -158,12 +171,12 @@ flex: .5;
     flex-direction: column;
     cursor: pointer;
     background-color: #fff;
-    border: none;
+    border: 20px;
     padding: 0;
 
     
 }
-.hamburger  span {
+.hamburger > span {
     width: 30px;
     height: 3px;
     background-color: black;
@@ -190,20 +203,120 @@ flex: .5;
     position: relative;
 }
 
-.cont_sect{
-    height: 40vh;
-    background-color: lab(90.65% 3.39 1.2);
-    align-items: center;
-    border: 1px solid;
-    padding: 4em;
+.second-section{
+    background-image: url("./images/cloudpix.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+    
 }
+.resume-div{
+    position:relative;
+    display: block;
+    margin: 2em;
+    padding: 1.5em;
+    
+
+
+}
+.resume{
+    color: lightblue;
+    background-color:blue;
+    padding: 1em;
+    text-transform: none;
+    background-color: white;
+    border-radius: 33px 33px 0 33px;
+    text-decoration: none;
+
+}
+.resume:hover{
+    background-color: lightblue;
+}
+
+.resume >a {
+    text-decoration: none;
+}
+
+
 .form-section{
     height: auto;
     background-color: lightgray;
     border-radius: 10px;
     margin: 3em 2.5em;
     padding: 1em 1.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+.input-btns{
+    border-radius: 30px 30px 30px 0;
+    padding: 1em;
+    width: 94%;
+}
+.textbox-area{
+    padding: 2.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    border-radius: 34px 34px 34px 0;
+    border: none;
+
+}
+.form-buttondiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-box{
+      
+     margin-bottom: 10em;
+     height: 35vh;
+     border:1px solid;   
+     background-color: white;
+     display: flex;
+     flex-direction: row;
+     padding: 2em;
+     justify-content: space-between;
+}
+.email-section{
+    height: 20vh;
+    background-color: yellow;
+    width: 20%;
+    padding: 2.7em;
+    
+}
+.git-section{
+     height: 20vh;
+    background-color: lightblue;
+    width: 20%;
+    padding: 2.7em;
+ box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    
+    
+}
+.box-tech{
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: auto auto auto;
+    
+    justify-content:  space-between;
+    gap: 1em;
+      
+}
+.div-social{
+
+    
+    text-align: center;
+    padding: 1em;
+
+
+
+}
+
+ 
+
 input{
     background-color: white;
     width: 90%;
@@ -224,6 +337,7 @@ textarea{
     background-color: white;
     border-radius: 0 33px 0 33px;
     cursor: pointer;
+    padding: 1.25em;
 }
 .form-btn:hover{
     background-color: white;
@@ -316,7 +430,7 @@ textarea{
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
         padding: 2rem 0;
-        gap: 2rem;
+        gap: 1rem;
         /* boxshadow and  background lineargradient goes hand in hand */
     }
 
@@ -327,6 +441,8 @@ textarea{
     .nav-link {
         padding: 1rem 0;
         display: block;
+        transform: scale(1.1);
+        
     }
 
     .nav-link::after {
@@ -368,10 +484,13 @@ textarea{
     flex-direction: column;   
 }
 .form-section{
-    
-    flex-direction: columnn;
+    width:auto ;
+    margin: .3em .4em;
+
+
 
 }
+
 
 
 
@@ -399,11 +518,18 @@ textarea{
 
  }
  
- 
  .btns{
     width:40 ;
 
  }
+ .div-box{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+ }
+
  
 
 }
