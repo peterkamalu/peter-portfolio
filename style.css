@@ -220,7 +220,7 @@ ul li a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 130vh;
+    height: 140vh;
     
 }
 .resume-div{
@@ -411,25 +411,42 @@ textarea{
 }
 
 /* ABOUT STYLING */
+
+.about-section{
+
+    height: 70vh;
+    margin : 10em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
 .about-div{
     display: flex;
     flex-direction: row;
-    height: 70vh;
+    height: 80vh;
 }
 
 .about-image{
     display: flex;
-    flex: .3;
+    flex: .4;
+    margin: 2em; 
+    border-radius: 35px ;
+    justify-content: center;
+    
+    
 }
 .about-text{
     display: flex;
-    flex: .7;
+    flex: .6;
     flex-direction: column;
-    padding: 2em;
+
+    font-size: 1.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
-        
-            
-                 
+
+                  
 
 @media (min-width: 80px) and (max-width: 850px){
     .hamburger{
@@ -541,6 +558,48 @@ textarea{
     width: auto;
 
  }
+
+
+
+ .about-div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .1em;
+    
+
+ }
+ .first-text{
+    font-size: 1em;
+    padding: 0.6em;
+    margin: 1em;
+ }
+
+ .mypics{
+    width: .3em .4em;
+    border-radius: 20px;
+    
+ }
+ .about-paragraph{
+    width: auto;
+    font-size: 1.2rem;
+    
+
+ }
+ .button-download{
+    width: 70%;
+    font-size: 0.60rem;
+    display: column;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: .2em;
+    position: relative;
+    height: .1em;
+ }
+
+
+
  
  
 
