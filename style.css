@@ -223,7 +223,7 @@ ul li a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 140vh;
+    height: 230vh;
     
 }
 .resume-div{
@@ -250,6 +250,8 @@ ul li a:hover{
 .resume >a {
     text-decoration: none;
 }
+
+
 
 .form-section{
     height: auto;
@@ -282,7 +284,6 @@ ul li a:hover{
     justify-content: center;
 }
 .div-box{
-      
      margin-bottom: 10em;
      height: 35vh;
      border:1px solid;   
@@ -322,6 +323,52 @@ ul li a:hover{
     padding: 1em;
 
 }
+.master-div{
+    height: 90vh;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.first-childdiv{
+    flex: 0.4;
+    height: 50vh;
+    border: 1px solid;
+    padding: 1em;
+    gap: 2em;
+    background-color: white;
+
+}
+.second-childdiv{
+     flex: 0.4;
+    height: 40vh;
+    border: 1px solid;
+    padding: 1em;
+    box-shadow: -5px 11px -5px 11px azure;
+    background-color: #FFFF;
+
+}
+
+.div-coms{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4em;
+    margin-top: 3em;
+    margin: 1.3em;
+    padding: 1.2em;
+    cursor: pointer;
+
+    
+
+}
+.div-coms :hover{
+    transform: scale(1.1);
+}
+
+
 
 input{
     background-color: white;
@@ -344,6 +391,22 @@ textarea{
     cursor: pointer;
     padding: 1.25em;
 }
+
+.resume{
+    position: relative;
+
+}
+
+
+.resume{
+    justify-content:center ;
+    text-align: center;
+    margin-top: 23em;
+    
+
+}
+
+
 .form-btn:hover{
     background-color: white;
     
@@ -417,7 +480,7 @@ textarea{
 
 .about-section{
 
-    height: 70vh;
+    height: 120vh;
     margin : 10em 0;
     display: flex;
     flex-direction: column;
@@ -427,7 +490,7 @@ textarea{
 .about-div{
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 70vh;
 }
 
 .about-image{
@@ -518,6 +581,8 @@ textarea{
 }
 .second-section{
     height: 100vh;
+    width: auto;
+    margin: .3em .4em;
 }
 .cont_sect{
     display: flex;
@@ -525,7 +590,7 @@ textarea{
 }
 .form-section{
     width:auto ;
-    margin: .3em .4em;
+
 
 }
 .input-btns{
@@ -562,15 +627,29 @@ textarea{
 
  }
 
+ .about-section{
+    width: auto;
+    display: flex;
+    
+ }
+
 
 
  .about-div{
+    width: auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
     margin-bottom: .1em;
     
 
+    
+ }
+ .master-div{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: .3em;
  }
  .first-text{
     font-size: 1em;
@@ -583,6 +662,7 @@ textarea{
     border-radius: 20px;
     
  }
+ 
  .about-paragraph{
     width: auto;
     font-size: 1.2rem;
