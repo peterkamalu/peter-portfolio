@@ -219,11 +219,13 @@ ul li a:hover{
 }
 
 .second-section{
-    background-image: url("./images/cloudpix.jpeg");
+    /* background-image: url("./images/cloudpix.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 230vh;
+    height: 230vh; */
+    display: flex;
+    flex-direction: column;
     
 }
 .resume-div{
@@ -257,7 +259,7 @@ ul li a:hover{
     height: auto;
     background-color: lightgray;
     border-radius: 10px;
-    margin: 3em 2.5em;
+    margin: .7em .5em;
     padding: 1em 1.5em;
     display: flex;
     justify-content: center;
@@ -328,34 +330,35 @@ ul li a:hover{
     display: flex;
     flex: 1;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-
-    
+    align-items: start;
+    gap: 2em;
 }
 .first-childdiv{
-    flex: 0.4;
-    height: 50vh;
-    border: 1px solid;
-    padding: 1em;
+    display: flex;
+    flex-direction: column;
     gap: 2em;
-    background-color: white;
+    flex: 0.5;
+    height: 30vh;
+    border: 1px solid;
+    padding: 2em;
+    border-radius: 20px;
+    background-color: rgb(232, 231, 231);
 
 }
 .second-childdiv{
-     flex: 0.4;
-    height: 40vh;
+    flex: 0.5;
+    height: 30vh;
     border: 1px solid;
-    padding: 1em;
-    box-shadow: -5px 11px -5px 11px azure;
+    padding: 2em;
     background-color: #FFFF;
-
+    border-radius: 20px;
 }
 
 .div-coms{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 4em;
+    grid-template-rows: auto auto;
+    gap: 2em;
     margin-top: 3em;
     margin: 1.3em;
     padding: 1.2em;
@@ -373,7 +376,7 @@ ul li a:hover{
 input{
     background-color: white;
     width: 90%;
-    margin: 1.4em;
+    margin: 1em;
     height: 2.3em;
     border: none;
 }
@@ -381,7 +384,6 @@ textarea{
     width: 90%;
     border: 1px solid; 
     margin: 1.4em 1.3em;
-
 }
 .form-btn{
     width: 90%;
@@ -479,8 +481,7 @@ textarea{
 /* ABOUT STYLING */
 
 .about-section{
-
-    height: 120vh;
+    height: auto;
     margin : 10em 0;
     display: flex;
     flex-direction: column;
@@ -573,120 +574,141 @@ textarea{
 
     }
     .section-one{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
 
+    }
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: .3em .4em;
+        gap: 1em;
+    }
+
+    .master-div{
+        height: 90vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: start;
+        gap: 2em;
+    }
+    .first-childdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        flex: 0.5;
+        height: 30vh;
+        border: 1px solid;
+        padding: 2em;
+        border-radius: 20px;
+        background-color: rgb(232, 231, 231);
+
+    }
+    .second-childdiv{
+        flex: 0.5;
+        height: 30vh;
+        border: 1px solid;
+        padding: 2em;
+        background-color: #FFFF;
+        border-radius: 20px;
+        width: auto;
+    }
+
+    .cont_sect{
+        display: flex;
+        flex-direction: column;   
+    }
+    .form-section{
+        width:auto ;
+    }
+
+    .input-btns{
+        width: 85%;
+    }
+
+    .textarea-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    textarea{
+        width: 60%;
+        border: 1px solid; 
+        margin: 1.4em 1.3em;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    .img-titlediv{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-bottom: 4em;
+    }
+    .github-button{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        display: column;
+        width: auto;
+    }
+
+    .about-section{
+        width: auto;
+        display: flex;
+    }
+
+    .about-div{
+        width: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: .1em;  
+    }
+    .master-div{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: .3em;
+    }
+    .first-text{
+        font-size: 1em;
+        padding: 0.6em;
+        margin: 1em;
+    }
+
+    .mypics{
+        width: .3em .4em;
+        border-radius: 20px;
+    }
+    
+    .about-paragraph{
+        width: auto;
+        font-size: 1.2rem;
+    }
+    .button-download{
+        width: 70%;
+        font-size: 0.60rem;
+        display: column;
+        flex-direction: row;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: .2em;
+        position: relative;
+        height: .1em;
+    }
 }
-.second-section{
-    height: 100vh;
-    width: auto;
-    margin: .3em .4em;
-}
-.cont_sect{
-    display: flex;
-    flex-direction: column;   
-}
-.form-section{
-    width:auto ;
-
-
-}
-.input-btns{
-    width: 85%;
-}
-.textbox-area{
-    width: auto;
-}
-
-
- .card-container{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     width: auto;
-     
-    
- }
- .img-titlediv{
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    margin-bottom: 4em;
-    
-
- }
-
- .github-button{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    display: column;
-    width: auto;
-
- }
-
- .about-section{
-    width: auto;
-    display: flex;
-    
- }
-
-
-
- .about-div{
-    width: auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: .1em;
-    
-
-    
- }
- .master-div{
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    margin: .3em;
- }
- .first-text{
-    font-size: 1em;
-    padding: 0.6em;
-    margin: 1em;
- }
-
- .mypics{
-    width: .3em .4em;
-    border-radius: 20px;
-    
- }
- 
- .about-paragraph{
-    width: auto;
-    font-size: 1.2rem;
-    
-
- }
- .button-download{
-    width: 70%;
-    font-size: 0.60rem;
-    display: column;
-    flex-direction: row;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: .2em;
-    position: relative;
-    height: .1em;
- }
-
-
-
- 
- 
-
- }
  
 
  
