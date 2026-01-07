@@ -84,7 +84,7 @@ ul li a:hover{
     display: flex;
     flex-direction: row;
     flex: 1;
-    margin-bottom: 4em;
+    margin-bottom: 5em;
 }
 .content_div{
     display: flex;
@@ -102,37 +102,6 @@ ul li a:hover{
 .image_div{
     display: flex;
     flex: .5;
-}
-
-.btn-btn:hover{
-    background-color: blue;
-}
-/* this is for the projects for those image there */
-/* .section-column */peterportfolio-projectpeter-portfolio-projectpeter-portfolio-projectpeter-portfolio-project
-
-.url-image{
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    width: 100%;
-
-    
-}
-
-
-.third-section{
-    height: auto;
-    margin: 4em 0;
-}
-
-.section-column{
-    height: 200px;
-    width: 100%;
-    border-radius: 2px solid;
-    background-color: lightblue;
-    margin: 2em;
 }
 
 .div-img{
@@ -186,19 +155,18 @@ ul li a:hover{
     
 }
 .hamburger > span {
-    width: 30px;
+    width: 32px;
     height: 3px;
     background-color: black;
     margin: 3px 0;
     transition: all 0.3s;
-    border-radius: 2px;
+
 
     /*  the  margin refers to the inside distance betwen the hamburger three span */
+    /* originally the width of the hamburger span was 30 but i styled it to 32 */
+    /* there ws border radius 3px in hamburger > span  but i removed it to watch and observe the changes */
+    /* we use px all through when stylingbhamburger span ok  and hamburger px is exclusive to hamburger */
 }
-.hamburger{
-    width: 26px;
-}
-
 
 .hamburger.active span:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 11px);
@@ -218,23 +186,12 @@ ul li a:hover{
     position: relative;
 }
 
-.second-section{
-    /* background-image: url("./images/cloudpix.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 230vh; */
-    display: flex;
-    flex-direction: column;
-    
-}
+
 .resume-div{
     position:relative;
     display: block;
     margin: 2em;
     padding: 1.5em;
-
-
 }
 .resume{
 
@@ -252,8 +209,6 @@ ul li a:hover{
 .resume >a {
     text-decoration: none;
 }
-
-
 
 .form-section{
     height: auto;
@@ -295,38 +250,9 @@ ul li a:hover{
      padding: 2em;
      justify-content: space-between;
 }
-.email-section{
-    height: 20vh;
-    background-color: yellow;
-    width: 20%;
-    padding: 2.7em;
-    
-}
-.git-section{
-     height: 20vh;
-    background-color: lightblue;
-    width: 20%;
-    padding: 2.7em;
- box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-    
-    
-}
-.box-tech{
-    display: grid;
-    flex-direction: column;
-    grid-template-columns: auto auto auto;
-    justify-content:  space-between;
-    gap: 1em;
-      
-}
-.div-social{
 
-    text-align: center;
-    padding: 1em;
-
-}
 .master-div{
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -336,7 +262,7 @@ ul li a:hover{
 .first-childdiv{
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
     flex: 0.5;
     height: 30vh;
     border: 1px solid;
@@ -345,11 +271,12 @@ ul li a:hover{
     background-color: rgb(232, 231, 231);
 
 }
+
 .second-childdiv{
     flex: 0.5;
     height: 30vh;
     border: 1px solid;
-    padding: 2em;
+    padding: 1em;
     background-color: #FFFF;
     border-radius: 20px;
 }
@@ -363,15 +290,7 @@ ul li a:hover{
     margin: 1.3em;
     padding: 1.2em;
     cursor: pointer;
-
-    
-
 }
-.div-coms :hover{
-    transform: scale(1.1);
-}
-
-
 
 input{
     background-color: white;
@@ -393,21 +312,12 @@ textarea{
     cursor: pointer;
     padding: 1.25em;
 }
-
 .resume{
     position: relative;
-
-}
-
-
-.resume{
     justify-content:center ;
     text-align: center;
     margin-top: 23em;
-    
-
 }
-
 
 .form-btn:hover{
     background-color: white;
@@ -415,19 +325,18 @@ textarea{
 }
 .third-section{
     margin-bottom: 4em ,3.5em;
-    
+   
 }
-
 .card-container{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto ;
     flex-direction: row;
     justify-content: center;
     gap: 2em;  
     padding: 1em,1.3em;
     text-align: center;
-    margin: 1em 1.3em;
+    margin: 1.4em 1.3em;
     border-radius: 30px 0 30px 0;
 }
 .img-titlediv{
@@ -437,6 +346,7 @@ textarea{
     width: 23em;
     padding: 1em;
 }
+
 .buttons-section{
     display: flex;
     flex-direction: row;
@@ -445,29 +355,12 @@ textarea{
     padding: 1em;
     text-align: center;
 }
-
-.github-button{
-    border: 1px solid black;
-    display: block;
-    width: 100%;
-    border-radius: 33px ;
-    padding: 1em;
-    cursor: pointer;
-    background-color: white;
-    position: relative;
-
+.download{
+align-items: center;
+justify-content: center;
 
 }
-.demo-button{
-    border: none;
-    text-align: center;
-    padding: 1em;
-    border-radius: 0;
-    background-color: #fff;    
-}
-.word-div{
-    text-align: center;
-}
+
 
 .footer{
     background-color:lightgray;
@@ -485,6 +378,7 @@ textarea{
     margin : 10em 0;
     display: flex;
     flex-direction: column;
+    flex: 1.0;
     justify-content: center;
     
 }
@@ -505,35 +399,42 @@ textarea{
 }
 .about-text{
     display: flex;
-    flex: .6;
+    flex: .5;
     flex-direction: column;
-
     font-size: 1.7em;
+    justify-content: center;
+    align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
                   
 
-@media (min-width: 80px) and (max-width: 850px){
+@media (min-width: 80px) and (max-width: 800px){
     .hamburger{
         display: flex;
-        align-items: center;
+        
     }
+    /* originallly sir styled it to 90px  that is top but i styled it to 150  is that correct */
+    /* i think there is no need for this gap styled in the naav menu of 1em */
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 90px;
+        top: 150px; 
+        display: flex;
         flex-direction: column;
-        background: white;
+        background: red;
         width: 99%;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
         padding: 2rem 0;
         gap: 1rem;
-        /* boxshadow and  background lineargradient goes hand in hand */
+        margin-top: 1em;
+        /* boxshadow and  background lineargradient goes hand in hand  i also added margin 1em to nav menu to observe something 0n the 27th of december*/
     }
+
+    /*  to be continued from nav menu active  line 439  */
 
     .nav-menu.active {
         left: 0;
@@ -564,11 +465,13 @@ textarea{
     }
     .image_div{
         display: flex;
+        flex: 0.5;
         align-items: center;
         justify-content: center;
     }
     .content_div{
         display: flex;
+        flex: 0.5;
         flex-direction: column;
         padding: 1em;
 
@@ -580,13 +483,7 @@ textarea{
         flex-direction: column;
 
     }
-    .second-section{
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        margin: .3em .4em;
-        gap: 1em;
-    }
+    
 
     .master-div{
         height: 90vh;
@@ -613,18 +510,15 @@ textarea{
         flex: 0.5;
         height: 30vh;
         border: 1px solid;
-        padding: 2em;
+        padding: .3em;
         background-color: #FFFF;
         border-radius: 20px;
         width: auto;
     }
 
-    .cont_sect{
-        display: flex;
-        flex-direction: column;   
-    }
     .form-section{
         width:auto ;
+        margin-top: 2em;
     }
 
     .input-btns{
@@ -636,6 +530,7 @@ textarea{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
     
     textarea{
@@ -696,6 +591,7 @@ textarea{
     .about-paragraph{
         width: auto;
         font-size: 1.2rem;
+        text-align: justify;
     }
     .button-download{
         width: 70%;
@@ -708,10 +604,58 @@ textarea{
         position: relative;
         height: .1em;
     }
-}
- 
 
- 
+
+
+ }
+    
+   
+@media (min-width: 801px) and (max-width: 999px){
+    .card-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        flex-direction: row;
+        justify-content: center;
+        margin: 1em 1.3em;
+        padding: 1em 1.3em;
+        gap: 2em;
+
+        
+    }
+    .about-div{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        text-align: justify;
+        padding: 1.5em;
+        margin-top: 2em;
+        
+        
+
+
+    }
+    .section_container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5em;
+        width: auto;
+    }
+
+    .image_div{
+        width: auto;
+        display: flex;
+        flex-direction: inherit;
+        margin: 0;
+    }
+    .master-div{
+        display: flex;
+        flex-direction: inherit;
+        margin: 1em;
+        
+    
+    }    
+}
 
 
 
