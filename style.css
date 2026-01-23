@@ -79,6 +79,44 @@ ul li a:hover{
 .logo:hover{
     transform: scale(1.1);
 }
+
+.scroll-top{
+animation-name: appear;
+animation-timeline: scroll(y);
+background-color: black;
+
+
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        display: none;
+        position: fixed;
+    }
+
+    3%{
+        opacity: 0;
+        display: none;
+    }
+    3.5%{
+        opacity: 1;
+        display: block;
+    }
+
+    
+    
+
+   
+    100%{
+        opacity: 1;
+        display: block;
+        position: fixed;
+    }
+
+}
+
+
 /* please what is the meaningg of transform scale */
 .section_container{
     display: flex;
@@ -394,9 +432,9 @@ justify-content: center;
     margin: 2em; 
     border-radius: 35px ;
     justify-content: center;
-    
-    
+      
 }
+
 .about-text{
     display: flex;
     flex: .5;
@@ -504,6 +542,8 @@ justify-content: center;
         padding: 2em;
         border-radius: 20px;
         background-color: rgb(232, 231, 231);
+        width: 85%;
+        
 
     }
     .second-childdiv{
@@ -513,7 +553,8 @@ justify-content: center;
         padding: .3em;
         background-color: #FFFF;
         border-radius: 20px;
-        width: auto;
+        width: 90%;
+        
     }
 
     .form-section{
@@ -631,10 +672,8 @@ justify-content: center;
         padding: 1.5em;
         margin-top: 2em;
         
-        
-
-
     }
+
     .section_container{
         display: flex;
         flex-direction: column;
@@ -650,12 +689,31 @@ justify-content: center;
     }
     .master-div{
         display: flex;
-        flex-direction: inherit;
+        flex: 1.0;
+        flex-direction: column;
         margin: 1em;
+
         
-    
+        
+          
     }    
+   .first-childdiv{
+    width: 80%;
+    flex: .5;
+    margin: 2.5em;
+   }
+   .second-childdiv{
+    width: 85%;
+    flex: .5;
+    margin: 2.5em ;
+   }
+   .textbox-area{
+    margin: .4em .4em;
+   }
+
+   
 }
+
 
 
 
