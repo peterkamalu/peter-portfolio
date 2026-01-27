@@ -140,6 +140,7 @@ background-color: black;
 .image_div{
     display: flex;
     flex: .5;
+    flex-direction: inherit;
 }
 
 .div-img{
@@ -531,6 +532,7 @@ justify-content: center;
         flex: 1;
         align-items: start;
         gap: 2em;
+        margin: auto;
     }
     .first-childdiv{
         display: flex;
@@ -542,10 +544,12 @@ justify-content: center;
         padding: 2em;
         border-radius: 20px;
         background-color: rgb(232, 231, 231);
-        width: 85%;
+        width: auto;
         
 
     }
+
+
     .second-childdiv{
         flex: 0.5;
         height: 30vh;
