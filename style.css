@@ -80,41 +80,8 @@ ul li a:hover{
     transform: scale(1.1);
 }
 
-.scroll-top{
-animation-name: appear;
-animation-timeline: scroll(y);
-background-color: black;
 
 
-}
-
-@keyframes appear{
-    0%{
-        opacity: 0;
-        display: none;
-        position: fixed;
-    }
-
-    3%{
-        opacity: 0;
-        display: none;
-    }
-    3.5%{
-        opacity: 1;
-        display: block;
-    }
-
-    
-    
-
-   
-    100%{
-        opacity: 1;
-        display: block;
-        position: fixed;
-    }
-
-}
 
 
 /* please what is the meaningg of transform scale */
