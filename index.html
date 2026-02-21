@@ -17,11 +17,11 @@
             bottom: 20px;
             display: none;
             padding: 10px 14px;
-            font-size: 14px;
+            font-size: 19px;
             border: none;
             border-radius: 7px;
-            background: #333;
-            color: black;
+            background: #ffffff;
+            color: #ffffff;
             cursor: pointer;
             z-index: 1000;
             box-shadow: 0 2px 6px rgba(0,0 ,0,0.2 );
@@ -61,12 +61,7 @@
                 <strong>Front-End Developer</strong>
 
             </div><br>
-            <div>
-            <p> you are welcome</p>
-            <p id="message"></p>
-            <button id="button">click to see a new messge</button>
-            </div>
-
+           
             <div class="image_div">
                 <img src="./images/myai-picture.jpg" style="border-radius: 37px; box-shadow:5px 11px   #88888888 ;">
                
@@ -256,11 +251,11 @@
                 }
             }
 
-            window.addEventListener('scoll' ,togglebacktotop);
+            window.addEventListener('scroll' ,togglebacktotop);
 
             if (backbtn) {
                 backbtn.addEventListener('click', function() {
-                    window.scrollTo({ top:0, behavior: 'smmoth'  });
+                    window.scrollTo({ top:0, behavior: 'smooth'  });
                 });
             }
             
