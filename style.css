@@ -48,7 +48,7 @@ header::after{
 ul li a{
     text-decoration: none;
     padding: 10px;
-    position: relative;
+    position: sticky;
     border-radius: 9px;
     background-color: white;
     text-transform: capitalize;
