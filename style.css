@@ -351,6 +351,7 @@ textarea{
     height: auto;
     width: 23em;
     padding: 1em;
+    cursor: pointer;
 }
 
 .buttons-section{
@@ -474,6 +475,7 @@ justify-content: center;
         flex: 0.5;
         align-items: center;
         justify-content: center;
+        margin-left: 10em;
     }
     .content_div{
         display: flex;
