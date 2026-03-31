@@ -348,8 +348,8 @@ textarea{
 .img-titlediv{
     border: 1px solid;
     border-radius: 37px 0 37px 0;
-    height: auto;
-    width: 23em;
+    height: 90%;
+    width: 22.5em;
     padding: 1em;
     cursor: pointer;
 }
@@ -562,7 +562,7 @@ justify-content: center;
     .img-titlediv{
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 400;
         margin-bottom: 4em;
     }
     .github-button{
@@ -659,6 +659,8 @@ justify-content: center;
         display: flex;
         flex-direction: inherit;
         margin: 0;
+    
+        
     }
     .master-div{
         display: flex;
