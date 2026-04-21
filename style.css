@@ -12,6 +12,7 @@ html,  body{
 }
 body{
     background-color: white;
+    color: grey;
     scroll-behavior: smooth;
     height: auto;
 }
@@ -107,8 +108,11 @@ ul li a:hover{
 .image_div{
     display: flex;
     flex: .5;
-    flex-direction: inherit;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .div-img{
     height: 45%;
@@ -275,7 +279,7 @@ ul li a:hover{
     padding: 2em;
     border-radius: 20px;
     background-color: rgb(232, 231, 231);
-
+    box-shadow: -4px 8px 4px 8px #88888888 ;
 }
 
 .second-childdiv{
@@ -283,8 +287,9 @@ ul li a:hover{
     height: 30vh;
     border: 1px solid;
     padding: 1em;
-    background-color: #FFFF;
+    background-color: #88888888;
     border-radius: 20px;
+    box-shadow: -4px 8px -4px -8px #88888888;
 }
 
 .div-coms{
@@ -476,6 +481,7 @@ justify-content: center;
         align-items: center;
         justify-content: center;
         margin-left: 10em;
+        width: 50%;
     }
     .content_div{
         display: flex;
@@ -513,7 +519,7 @@ justify-content: center;
         padding: 2em;
         border-radius: 20px;
         background-color: rgb(232, 231, 231);
-        width: auto;
+        width: 83%;
         
 
     }
@@ -652,13 +658,16 @@ justify-content: center;
         flex-direction: column;
         margin-bottom: 5em;
         width: auto;
+        margin-left: 25em;
     }
 
     .image_div{
-        width: auto;
+        width: 50%;
         display: flex;
         flex-direction: inherit;
         margin: 0;
+        padding: 0;
+        align-content: center;
     
         
     }
@@ -676,9 +685,10 @@ justify-content: center;
     width: 80%;
     flex: .5;
     margin: 2.5em;
+    box-shadow: 5px,11px,5px,11px #7c3aed rgba(117, 0, 19, 0.05);
    }
    .second-childdiv{
-    width: 85%;
+    width: 90%;
     flex: .5;
     margin: 2.5em ;
    }
