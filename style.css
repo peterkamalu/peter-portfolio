@@ -262,12 +262,14 @@ ul li a:hover{
 }
 
 .master-div{
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex: 1;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
     gap: 2em;
+    padding: 0 4em;
+    background-color: bisque;
 }
 .first-childdiv{
     display: flex;
@@ -276,10 +278,11 @@ ul li a:hover{
     flex: 0.5;
     height: 30vh;
     border: 1px solid;
-    padding: 2em;
+    padding: 1em;
     border-radius: 20px;
     background-color: rgb(232, 231, 231);
-    box-shadow: -4px 8px 4px 8px #88888888 ;
+    box-shadow: 20px 20px 50px 15px #a52bca88 ;
+    color: rgb;
 }
 
 .second-childdiv{
@@ -287,9 +290,9 @@ ul li a:hover{
     height: 30vh;
     border: 1px solid;
     padding: 1em;
-    background-color: #88888888;
+    background-color: #fff;
     border-radius: 20px;
-    box-shadow: -4px 8px -4px -8px #88888888;
+    box-shadow: 20px 20px 50px 15px #a52bca88;
 }
 
 .div-coms{
