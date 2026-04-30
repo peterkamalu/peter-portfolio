@@ -455,13 +455,13 @@ justify-content: center;
         color: white;
         cursor: pointer;
         position: relative;
+        margin-left: 0em;
     }
 
     .demo-button{
         border: 1px solid;
         border-radius: 35px;
         padding: 1em;
-        margin-bottom: 1em;
         background-color: #f51392;
         color: white;
         position: relative;
