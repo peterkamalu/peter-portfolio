@@ -270,7 +270,7 @@ ul li a:hover{
     align-items: center;
     gap: 2em;
     padding: 0 4em;
-    background-color: bisque;
+    background-color: white;
 }
 
 /* padding here means 0 up and down 4 by thr sides the inner space */
@@ -294,7 +294,7 @@ ul li a:hover{
     height: 33vh;
     border: 1px solid;
     padding: 1em;
-    background-color: #fff;
+    background-color:white;
     border-radius: 20px;
     box-shadow: 20px 20px 50px 15px #a52bca88;
 }
@@ -357,24 +357,28 @@ textarea{
     margin: 2em 2em;
     border-radius: 30px 0 30px 0;
     background-color:rgb(200, 200, 215) ;
-    box-shadow: 20px 20px 50px 15px #a52bca88 ;
-    height: 150vh;
-    width: auto aut auto ;
+    height: 80vh;
+    width: auto auto auto ;
 }
 .img-titlediv{
     border: 1px solid;
     border-radius: 37px 0 37px 0;
+    width: 70;
     height: 60vh;
-    width: 60;
     cursor: pointer;
-    padding: 1.20em 0;
+    padding: 2em;
     margin: 1em 1em;
-    
+     box-shadow: 20px 20px 50px 15px #a52bca88 ;
     
 }
 
+
 .img-titlediv img{
     border-radius: 40px;
+    height: 50vh;
+    
+    
+    
 }
 
 .buttons-section{
@@ -439,13 +443,7 @@ justify-content: center;
 }
 
 
-  .img-titlediv{
-        display: flex;
-        flex-direction: column;
-        width: 700;
-        margin-bottom: 4em;
-        height: 120vh;
-    }
+  
 
     .github-button{
         border: 1px solid;
@@ -568,7 +566,8 @@ justify-content: center;
         border: 1px solid;
         padding: 2em;
         border-radius: 20px;
-        background-color: rgb(232, 231, 231);
+        background-color: white;
+        color: white;
         width: 83%;
         
 
@@ -580,7 +579,7 @@ justify-content: center;
         height: 30vh;
         border: 1px solid;
         padding: .3em;
-        background-color: #FFFF;
+        background-color: white;
         border-radius: 20px;
         width: 90%;
         
@@ -620,7 +619,7 @@ justify-content: center;
 
     img-titlediv{
         width: auto;
-        height: auto;
+        
     }
   
     .github-button{
