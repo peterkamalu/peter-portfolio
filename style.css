@@ -112,6 +112,7 @@ ul li a:hover{
     flex-direction: center;
     align-items: center;
     justify-content: center;
+    width: auto;
 }
 
 
@@ -160,18 +161,23 @@ ul li a:hover{
     display: none;
     flex-direction: column;
     cursor: pointer;
-    background-color: #fff;
+     box-shadow: none;
     border: 20px;
     padding: 0;
+    filter: none;
+    text-shadow: none;
 
     
 }
 .hamburger > span {
     width: 32px;
     height: 3px;
-    background-color: black;
+     background-color: #a52bca88;
+     color: white;
+     box-shadow: none;
     margin: 3px 0;
     transition: all 0.3s;
+    padding: 0;
 
 
     /*  the  margin refers to the inside distance betwen the hamburger three span */
@@ -265,16 +271,15 @@ ul li a:hover{
 }
 
 .master-div{
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex: 1;
     flex-direction: row;
     align-items: space-between;
     gap: 1em;
-    background-color: white;
     width: 100%;
     align-items: space-between;
-
+    margin-bottom: 4em;
 
 }
 
@@ -290,22 +295,22 @@ ul li a:hover{
     border-radius: 20px;
     background-color: rgb(232, 231, 231);
     box-shadow: 20px 20px 50px 15px #a52bca88 ;
-    width: 30%;
-    margin: 1em;
-    
+    width: auto;
+    margin: 1em 6em;
 
     
 }
 
+
 .second-childdiv{
     flex: 0.5;
-    height: 30vh;
+    height: 35vh;
     border: 1px solid;
     padding: 1em;
      background-color: rgb(232, 231, 231);
     border-radius: 20px;
     box-shadow: 20px 20px 40px 15px #a52bca88;
-    width: 30%;
+    width: auto;
     margin: 1em;
 }
 
@@ -339,7 +344,10 @@ textarea{
     background-color: white;
     border-radius: 0 33px 0 33px;
     cursor: pointer;
-    padding: 1.25em;
+    padding: 2em;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
 }
 .resume{
     position: relative;
@@ -528,6 +536,7 @@ justify-content: center;
         justify-content: center;
         flex: 1;
         width: auto;
+        height: auto;
     }
     .image_div{
         display: flex;
@@ -535,7 +544,8 @@ justify-content: center;
         align-items: center;
         justify-content: center;
         margin-left: 10em;
-        width: 50%;
+        width: 30%;
+        height: auto;
     }
     .content_div{
         display: flex;
@@ -561,7 +571,7 @@ justify-content: center;
         flex: 1;
         align-items: start;
         gap: 2em;
-        margin: auto;
+        height: auto;
     }
     .first-childdiv{
         display: flex;
