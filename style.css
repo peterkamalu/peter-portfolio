@@ -40,7 +40,8 @@ header::after{
     font-size: 18px;
     font-weight: bold;
    text-transform: capitalize;
-   background-color: white;
+background-color: mintcream;
+   color: #a52bca88;
    padding: 1.5em;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    box-shadow: none;
@@ -289,7 +290,7 @@ ul li a:hover{
     display: flex;
     flex-direction: column;
     flex: 0.5;
-    height: 30vh;
+    height: 33vh;
     border: 1px solid;
     padding: 1em 0.50em;
     border-radius: 20px;
@@ -304,9 +305,9 @@ ul li a:hover{
 
 .second-childdiv{
     flex: 0.5;
-    height: 35vh;
+    height: 33vh;
     border: 1px solid;
-    padding: 1em;
+    padding: 0.30em;
      background-color: rgb(232, 231, 231);
     border-radius: 20px;
     box-shadow: 20px 20px 40px 15px #a52bca88;
@@ -361,9 +362,12 @@ textarea{
     
 }
 .third-section{
-    margin-bottom: 4em ,3.5em;
+    margin: 3em 0;
+    
    
 }
+
+
 .card-container{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -494,10 +498,10 @@ justify-content: center;
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 150px; 
+        top: 340px;
+         
         display: flex;
         flex-direction: column;
-        background: red;
         width: 99%;
         text-align: center;
         transition: 0.3s;
@@ -543,8 +547,8 @@ justify-content: center;
         flex: 0.5;
         align-items: center;
         justify-content: center;
-        margin-left: 10em;
-        width: 30%;
+        margin: 1em;
+        width: 25%;
         height: auto;
     }
     .content_div{
@@ -570,34 +574,56 @@ justify-content: center;
         flex-direction: column;
         flex: 1;
         align-items: start;
-        gap: 2em;
+        gap: 1em;
         height: auto;
     }
+
     .first-childdiv{
         display: flex;
         flex-direction: column;
         gap: 2em;
-        flex: 0.5;
-        height: 30vh;
+        flex: 0.2;
+        height: auto;
         border: 1px solid;
-        padding: 2em;
+        padding: .3em;
         border-radius: 20px;
-        background-color: white;
-        color: white;
-        width: 83%;
+        width: auto;
+         background-color: rgb(232, 231, 231);
+    box-shadow: 20px 20px 40px 15px #a52bca88;
+     background-color: rgb(232, 231, 231);
+    box-shadow: 20px 20px 40px 15px #a52bca88;
         
+        
+
+    }
+
+    /* the social div comes after the firstchilddiv is a child element */
+
+    .social-div{
+        display: flex;
+        flex-direction: row;
 
     }
 
 
     .second-childdiv{
-        flex: 0.5;
-        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        flex: 0.6;
+        height: auto;
         border: 1px solid;
         padding: .3em;
-        background-color: white;
         border-radius: 20px;
         width: 90%;
+         background-color: rgb(232, 231, 231);
+    box-shadow: 20px 20px 40px 15px #a52bca88;
+        
+        
+    }
+
+    .div-coms{
+        display: flex;
+        flex-direction: column;
         
     }
 
@@ -624,6 +650,12 @@ justify-content: center;
         margin: 1.4em 1.3em;
     }
 
+    .about-text{
+        margin-top: 3em;
+        display: flex;
+        flex-direction: column;
+    }
+
     .card-container{
         display: flex;
         flex-direction: column;
@@ -648,7 +680,7 @@ justify-content: center;
 
     .about-section{
         width: auto;
-        display: flex;
+        margin: 5em 0;
     }
 
     .about-div{
@@ -679,6 +711,9 @@ justify-content: center;
         width: auto;
         font-size: 1.2rem;
         text-align: justify;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
     }
     .button-download{
         width: 70%;
@@ -692,6 +727,13 @@ justify-content: center;
         height: .1em;
     }
 
+    .third-section{
+        margin: 3em 1em;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+
+    }
 
 
  }
@@ -759,6 +801,7 @@ justify-content: center;
     flex: .5;
     margin: 2.5em ;
    }
+
    .textbox-area{
     margin: .4em .4em;
    }
