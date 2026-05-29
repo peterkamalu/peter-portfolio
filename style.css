@@ -556,14 +556,19 @@ justify-content: center;
         justify-content: center;
         flex: 1;
         width: auto;
+        height: auto;
     }
     .image_div{
         display: flex;
         flex: 0.5;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: 10em;
-        width: 50%;
+        margin: .2em .1em;
+        padding: .1em;
+        width: auto;
+        height: auto;
+        border-radius: 4px;
     }
     .content_div{
         display: flex;
@@ -680,7 +685,7 @@ justify-content: center;
         display: flex;
         flex: 1.0;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         height: auto;
         width: auto;
         justify-content: space-around;
@@ -762,10 +767,15 @@ justify-content: center;
     
    
 @media (min-width: 801px) and (max-width: 999px){
+
+    body{
+        height: auto;
+    }
     .card-container{
+        height: auto;
         display: grid;
         grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
+        grid-template-rows: auto;
         flex-direction: row;
         justify-content: center;
         margin: 1em 1.3em;
@@ -774,23 +784,30 @@ justify-content: center;
 
         
     }
-    .about-div{
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        text-align: justify;
-        padding: 1.5em;
-        margin-top: 2em;
-        
-    }
 
     .section_container{
         display: flex;
-        flex-direction: column;
+        flex: 1.0;
+        flex-direction: row;
         height: auto;
-        margin-bottom: 5em;
+        align-items: center;
+        justify-content: center;
+        margin: 2em 5em;
         width: auto;
-        margin-left: 25em;
+    
+    }
+
+    .content_div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-pic{
+        width: 50%;
+        padding: 1em;
+        object-fit: cover;
+        height: 75;
+    
     }
 
     .image_div{
@@ -801,19 +818,21 @@ justify-content: center;
         margin: 0;
         padding: 0;
         align-content: center;
-    
-        
+       
     }
+
+
+    
     .master-div{
         display: flex;
         flex: 1.0;
-        flex-direction: column;
+        flex-direction: row;
         margin: 1em;
-
-        
-        
-          
+        height: auto;
+        width: auto;
+    
     }    
+
    .first-childdiv{
     height: auto;
     width: 80%;
@@ -821,19 +840,78 @@ justify-content: center;
     margin: 1.5em;
     box-shadow: 5px,11px,5px,11px #7c3aed rgba(117, 0, 19, 0.05);
     padding: 1em;
+    font-size: 1em;
    }
    .second-childdiv{
     height: auto;
     width: 90%;
     flex: .5;
+    justify-content: flex-start;
+    flex-direction: column;
     margin: 1.5em ;
     padding: 1.4em;
+    font-size: 1em;
    }
 
 
    .textbox-area{
     margin: .4em .4em;
    }
+
+   .third-section{
+    width: auto;
+    height: auto;
+   }
+
+    .about-section{
+        width: auto;
+        display: flex;
+        height: 100vh;
+    }
+
+    .about-text{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    .about-div{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        text-align: justify;
+        padding: 1.5em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+        
+    }
+
+   
+
+     .img-titlediv1{
+        height: 37vh;
+        width: auto;
+        margin: .1em;
+        flex: 0.3;
+    
+    }
+     .img-titlediv2{
+        margin: .1em;
+        flex: 0.3;
+        height: 37vh;
+    
+    }
+
+     .img-titlediv3{
+        margin: .1em;
+        flex: 0.3;
+        height: 37vh;
+    
+    }
+
+   
 
    
 }

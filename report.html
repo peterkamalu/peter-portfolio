@@ -4,20 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    
     </head>
     <body>
-        <nav class="nav-bar">
-            <ul>
-                <l1>home</l1>
-                <l1>home</l1>
-                <l1>home</l1>
-                
-                <l1>home</l1>
-                
+        <h2>javascript objects</h2>
+        <h4>objects and methods</h4>
+        <p>a method as a function definition stored as value</p>
+        <p id="demore"></p>
 
-            </ul>
-
-        </nav>
         
+        
+    <script>
+        const person = {
+            firstname : "peter",
+            lastname : "kamalu",
+            age : 70,
+            fullName :function() {
+                return this.firstname + " " + this.lastname;
+            }
+        };
+        
+
+        document.getElementById("demore").innerHTML = person.fullName();
+
+    </script>
     </body>
 </html>
