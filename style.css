@@ -686,17 +686,21 @@ justify-content: center;
         flex: 1.0;
         flex-direction: column;
         align-items: center;
-        height: auto;
+        height: 80vh;
         width: auto;
         justify-content: space-around;
     }
 
     .img-titlediv1{
-        height: auto;
+        margin: .1em;
+        height: 35vh;
         width: auto;
         margin: .1em;
+        border-radius: 32px;
     
     }
+
+    
 
 
     .project_div{
@@ -914,6 +918,94 @@ justify-content: center;
    
 
    
+}
+
+@media (min-width: 1010px) and (max-width: 1030px){
+
+    .about-section{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .mypics{
+        width: .3em .4em;
+        border-radius: 20px;
+        height: auto;
+    
+    }
+    .card-container{
+        height: auto;
+        width: auto;
+           display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        flex-direction: row;
+        justify-content: center;
+        margin: 1em 1.3em;
+        padding: 1em 1.3em;
+        gap: 2em;
+
+    }
+
+
+     .master-div{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 100%;
+        margin: .3em;
+    }
+    
+
+    
+    .first-childdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        flex: 0.5;
+        height: auto;
+        width: auto;
+    
+    }
+
+
+    .second-childdiv{
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+        gap: 1em;
+        height: auto;
+        width: auto;
+    }
+
+    .div-coms{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+     .img-titlediv1{
+        height:auto;
+        width: auto;
+    
+    
+    }
+     .img-titlediv2{
+        height: auto;
+        width: auto;
+    
+    }
+
+     .img-titlediv3{
+        height: auto;
+        width: auto;
+    
+    }
+    
 }
 
 
