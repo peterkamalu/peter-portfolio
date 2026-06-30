@@ -1,23 +1,32 @@
+
+
 *{
     padding: 0;
     margin: 0;
 }
-html,  body{
+
+html{
+    font-family: poppins;
+}
+
+
+  body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
     box-sizing: content-box;
     overflow-x: hidden;
-    
-    
-}
-body{
-    background-color: white;
+     background-color: white;
     color: grey;
     scroll-behavior: smooth;
     height: auto;
+    font-family: poppins; 
+    
 }
+
 /* i removed the height from auto */
+
+
 header{
     
     display: flex;
@@ -33,6 +42,38 @@ header{
 header::after{
     box-shadow: none;
 }
+
+.theme-switch{
+    height: 55px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 233px;
+    right: 20px;
+
+}
+
+.theme-switch svg{
+    fill: #3a435d;
+
+}
+#theme-switch svg:last-child(2){
+    display: none;
+}
+
+.dark-mode .theme-switch svg:first-child{
+    display: none;
+}
+.dark-mode .theme-switch svg:last-child{
+    display: block;
+}
+
+
+
 .nav-menu{
     display: flex;
     gap: 2em;
@@ -80,6 +121,14 @@ ul li a:hover{
 }
 .logo:hover{
     transform: scale(1.1);
+}
+
+#theme-switch{
+    height: 55px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base variant);
 }
 
 
@@ -517,7 +566,7 @@ justify-content: center;
         top: 150px; 
         display: flex;
         flex-direction: column;
-        background: red;
+        background: white;
         width: 99%;
         text-align: center;
         transition: 0.3s;

@@ -7,7 +7,10 @@
     <!-- add inf font icons immediately after here -->
 
     <link rel="stylesheet" href="style.css">
-     <script src="https://kit.fontawesome.com/7795fd7ce4.js" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/7795fd7ce4.js"  crossorigin="anonymous"></script>
+     <script type="text/javascript" src="darkmode.js" defer></script>
+     <!-- or u put this dark mode at tclosing of the body tag -->
+
    
     </head>
     <!-- i have not added media query to this my ai picture i modified the border radius to 50 % i need to do so to complete this project -->
@@ -34,17 +37,30 @@
     
     
     </style>
+    
 
 
     <body>
         <header>
             <a href="index.html"><img src="images/28c82aa7-4497-4617-8db1-ab64f2def3ca mr ucchenna logo.jpg"  class="logo" alt="thelogo" width="75"></a>
+           
+
+
             <ul class="nav-menu">
                 <li><a href="#index" class="nav-link">Home</a></li>
                 <li><a href="#contact" class="nav-link">contact</a></li>
                 <li><a href="#projects" class="nav-link">projects</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>                
+                <li><a href="#about" class="nav-link">About</a></li>  
+                
             </ul>
+
+            
+                 <button id="theme-switch">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M338.5-338.5Q280-397 280-480t58.5-141.5Q397-680 480-680t141.5 58.5Q680-563 680-480t-58.5 141.5Q563-280 480-280t-141.5-58.5ZM200-446.67H40v-66.66h160v66.66Zm720 0H760v-66.66h160v66.66ZM446.67-760v-160h66.66v160h-66.66Zm0 720v-160h66.66v160h-66.66ZM260-655.33l-100.33-97 47.66-49 96 100-43.33 46Zm493.33 496-97.66-100.34 45-45.66 99.66 97.66-47 48.34Zm-98.66-541.34 97.66-99.66 49 47L702-656l-47.33-44.67ZM159.33-207.33 259-305l46.33 45.67-97.66 99.66-48.34-47.66Z"/></svg>
+
+
+            </button>
             
             <button class="hamburger">
                 <span class></span>
@@ -283,6 +299,7 @@
                     window.scrollTo({ top:0, behavior: 'smooth'  });
                 });
             }
+
             
 
 
