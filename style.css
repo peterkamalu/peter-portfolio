@@ -5,6 +5,14 @@
     margin: 0;
 }
 
+
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color: #FFF;
+    --box-shadow:-5px 11px 5px 11px  #a52bca88;
+}
+
+
 html{
     font-family: poppins;
 }
@@ -39,6 +47,8 @@ header{
     box-shadow: none;
     filter: none;
 }
+
+
 header::after{
     box-shadow: none;
 }
@@ -88,6 +98,8 @@ header::after{
    filter: none;
 
 }
+
+
 ul li a{
     text-decoration: none;
     padding: 10px;
@@ -119,6 +131,8 @@ ul li a:hover{
     transition: transform 0.3s ease;
     width: 45%;
 }
+
+
 .logo:hover{
     transform: scale(1.1);
 }
@@ -136,6 +150,8 @@ ul li a:hover{
 
 
 /* please what is the meaningg of transform scale */
+
+
 .section_container{
     display: flex;
     flex-direction: row;
@@ -155,12 +171,58 @@ ul li a:hover{
 .content_div > h2{
     font-size: 3em;
 }
+
 .image_div{
+    width: 90%;
+    height: 95%;
     display: flex;
     flex: .5;
     flex-direction: center;
     align-items: center;
     justify-content: center;
+    object-fit: cover;
+    margin: 40px auto;   
+    overflow: hidden;
+    border-radius: 45% 12% 30% 45% 35% 12% 45% 40%;
+    background: linear-gradient(
+        135deg,
+        #fdf3f9 0%,
+        #f7e7f8 40%,
+        #ffffff 1100%,
+
+    )
+     }
+
+    .image_div ::before {
+        content: "";
+        isolation: isolate;
+        inset: -15px;
+        position: absolute;
+        background: linear-gradient(
+            circle,
+            rgba(183 ,118, 225, 0.5%) 0%,
+                rgba(183 ,118, 225, 0.5%) 50%,
+                transparent 80%
+        );
+        filter: blur(25px);
+        z-index: -1;
+        box-shadow: 
+         0 0 30px rgba(185, 120, 265, 0.4),
+          0 0 30px rgba(185, 120, 265, 0.2);
+     
+    }
+   
+.image-pic{
+    width: 50%;
+    border-radius: 40% 8% 25% 40%;  
+    object-fit: cover;
+    height: 100%;
+     box-shadow:-5px 11px 5px 11px  #a52bca88  rgba(157 ,78 , 221, 0.6);
+      padding: 2em; 
+      display: block;
+      
+      
+     
 }
 
 
@@ -170,6 +232,7 @@ ul li a:hover{
     width: 40%;
     margin: 2em;  
 }
+
 .img-div:hover{
     transform: scale(1.1);
 }
@@ -211,9 +274,10 @@ ul li a:hover{
     background-color: #fff;
     border: 20px;
     padding: 0;
-
-    
+ 
 }
+
+
 .hamburger > span {
     width: 32px;
     height: 3px;
@@ -301,7 +365,14 @@ ul li a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
 }
+
+
+
+
 .div-box{
      margin-bottom: 10em;
      height: 35vh;
@@ -319,9 +390,10 @@ ul li a:hover{
     flex: 1;
     flex-direction: row;
     align-items: center;
-    gap: 2em;
+    gap: 5em;
     padding: 0 4em;
     background-color: white;
+    color:#a52bca88;
     
 }
 
@@ -337,7 +409,8 @@ ul li a:hover{
     padding: 1em;
     border-radius: 20px;
     background-color: rgb(232, 231, 231);
-    box-shadow: 20px 20px 50px 15px #a52bca88 ;
+    box-shadow:-5px 11px 5px 11px  #a52bca88 ;
+
     
 }
 
@@ -348,7 +421,8 @@ ul li a:hover{
     padding: 1.3em;
     background-color:white;
     border-radius: 20px;
-    box-shadow: 20px 20px 50px 15px #a52bca88;
+     box-shadow:-5px 11px 5px 11px  #a52bca88 ;
+
 }
 
 .div-coms{
@@ -383,6 +457,7 @@ textarea{
     padding: 1.75em;
     margin: 0.50em;
 }
+
 .resume{
     position: relative;
     justify-content:center ;
@@ -402,6 +477,7 @@ textarea{
     /* margin-bottom: 4em ,3.5em; */
     width: auto;
 }
+
 .card-container{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -427,7 +503,7 @@ textarea{
     cursor: pointer;
     padding: 2em;
     margin: 1em 1em;
-    box-shadow: 20px 20px 50px 15px #a52bca88 ;
+     box-shadow:-5px 11px 5px 11px  #a52bca88 ;
     flex: .33;
 }
 
@@ -439,8 +515,8 @@ textarea{
     cursor: pointer;
     padding: 2em;
     margin: 1em 1em;
-    box-shadow: 20px 20px 50px 15px #a52bca88 ;
     flex: .33;
+     box-shadow:-5px 11px 5px 11px  #a52bca88 ;
 }
 
 .img-titlediv3{
@@ -451,7 +527,7 @@ textarea{
     cursor: pointer;
     padding: 2em;
     margin: 1em 1em;
-     box-shadow: 20px 20px 50px 15px #a52bca88 ;
+     box-shadow:-5px 11px 5px 11px  #a52bca88 ;
     flex: .33;
 }
 
@@ -529,7 +605,7 @@ justify-content: center;
   
 
     .github-button{
-        border: 1px solid;
+        border: 2px solid;
         border-radius: 35px 0 35px 0;
         background-color:none;
         padding: 1em ;
@@ -539,15 +615,17 @@ justify-content: center;
         cursor: pointer;
         position: relative;
         margin-left: 0em;
+        font-weight: bold;
     }
 
     .demo-button{
-        border: 1px solid;
+        border: 2px solid;
         border-radius: 35px;
         padding: 1em;
         background-color:rgb(200, 200, 215) ;
         position: relative;
         cursor: pointer;
+        font-weight: bold;
 
     }
 
@@ -618,6 +696,7 @@ justify-content: center;
         width: auto;
         height: auto;
         border-radius: 4px;
+        
     }
     .content_div{
         display: flex;
@@ -860,6 +939,12 @@ justify-content: center;
         padding: 1em;
         object-fit: cover;
         height: 75;
+        border-radius: 35px; 
+         margin-right: 5px; width: 50%;
+          padding: 2em;
+           object-fit: cover;
+           
+          
     
     }
 
@@ -871,6 +956,7 @@ justify-content: center;
         margin: 0;
         padding: 0;
         align-content: center;
+        box-shadow: var(--box-shadow);
        
     }
 
