@@ -10,6 +10,9 @@
     --primary-color:#edf2fc;
     --secondary-color: #FFF;
     --box-shadow:-5px 11px 5px 11px  #a52bca88;
+    --maroon-color: #80000;
+    --buttons-color: #800000;
+
 }
 
 
@@ -25,7 +28,7 @@ html{
     box-sizing: content-box;
     overflow-x: hidden;
      background-color: white;
-    color: grey;
+    color: (var(--maroon-color));
     scroll-behavior: smooth;
     height: auto;
     font-family: poppins; 
@@ -429,7 +432,7 @@ ul li a:hover{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    gap: 2em;
+    gap: 1.3em;
     margin-top: 3em;
     margin: 1.3em;
     padding: 1.2em;
