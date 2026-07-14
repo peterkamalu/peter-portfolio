@@ -12,6 +12,7 @@
     --box-shadow:-5px 11px 5px 11px  #a52bca88;
     --maroon-color: #80000;
     --buttons-color: #800000;
+    --text-design:#800000;
 
 }
 
@@ -159,6 +160,8 @@ ul li a:hover{
     display: flex;
     flex-direction: row;
     flex: 1;
+    justify-content: space-between;
+    justify-items: ;
     margin-bottom: 5em;
 }
 .content_div{
@@ -196,31 +199,13 @@ ul li a:hover{
     )
      }
 
-    .image_div ::before {
-        content: "";
-        isolation: isolate;
-        inset: -15px;
-        position: absolute;
-        background: linear-gradient(
-            circle,
-            rgba(183 ,118, 225, 0.5%) 0%,
-                rgba(183 ,118, 225, 0.5%) 50%,
-                transparent 80%
-        );
-        filter: blur(25px);
-        z-index: -1;
-        box-shadow: 
-         0 0 30px rgba(185, 120, 265, 0.4),
-          0 0 30px rgba(185, 120, 265, 0.2);
-     
-    }
+    
    
-.image-pic{
-    width: 50%;
-    border-radius: 40% 8% 25% 40%;  
+.image-picture{
+    width: 40%; 
     object-fit: cover;
     height: 100%;
-     box-shadow:-5px 11px 5px 11px  #a52bca88  rgba(157 ,78 , 221, 0.6);
+    background-color: transparent;
       padding: 2em; 
       display: block;
       
@@ -793,6 +778,11 @@ justify-content: center;
         width: 85%;
     }
 
+    .section_container{
+        display: flex;
+        align-items: center;
+    }
+
     .textarea-box{
         display: flex;
         flex-direction: column;
@@ -942,12 +932,10 @@ justify-content: center;
         padding: 1em;
         object-fit: cover;
         height: 75;
-        border-radius: 35px; 
+        border-radius: 50%; 
          margin-right: 5px; width: 50%;
           padding: 2em;
-           object-fit: cover;
-           
-          
+           object-fit: cover;  
     
     }
 
@@ -962,7 +950,6 @@ justify-content: center;
         box-shadow: var(--box-shadow);
        
     }
-
 
     
     .master-div{
@@ -984,6 +971,7 @@ justify-content: center;
     padding: 1em;
     font-size: 1em;
    }
+
    .second-childdiv{
     height: auto;
     width: 90%;
@@ -1053,7 +1041,6 @@ justify-content: center;
     
     }
 
-   
 
    
 }
