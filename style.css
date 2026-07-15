@@ -114,6 +114,7 @@ ul li a{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+
  a:hover:focus{
     color: red;
 
@@ -161,9 +162,10 @@ ul li a:hover{
     flex-direction: row;
     flex: 1;
     justify-content: space-between;
-    justify-items: ;
+    justify-items: center;
     margin-bottom: 5em;
 }
+
 .content_div{
     display: flex;
     flex: .5;
@@ -174,6 +176,7 @@ ul li a:hover{
     text-transform: capitalize;
     text-align: center;
 }
+
 .content_div > h2{
     font-size: 3em;
 }
@@ -205,11 +208,10 @@ ul li a:hover{
     width: 40%; 
     object-fit: cover;
     height: 100%;
-    background-color: transparent;
+    background: none;
       padding: 2em; 
       display: block;
-      
-      
+          
      
 }
 
@@ -249,6 +251,7 @@ ul li a:hover{
 .box-one >h3{
     text-decoration: underline;
 }
+
 .box-one:hover{
     background-color: lightblue;
      transform: scale(1.1);
@@ -373,7 +376,7 @@ ul li a:hover{
 }
 
 .master-div{
-    height: 70vh;
+    height: 75vh;
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -392,7 +395,7 @@ ul li a:hover{
     flex-direction: column;
     gap: 1em;
     flex: 0.5;
-    height: 33vh;
+    height: 37vh;
     border: 1px solid;
     padding: 1em;
     border-radius: 20px;
@@ -404,7 +407,7 @@ ul li a:hover{
 
 .second-childdiv{
     flex: 0.5;
-    height: 33vh;
+    height: 37vh;
     border: 1px solid;
     padding: 1.3em;
     background-color:white;
@@ -423,6 +426,16 @@ ul li a:hover{
     padding: 1.2em;
     cursor: pointer;
 }
+
+.text-design{
+    font-size: 1.6em;
+    color: var(--text-design);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+
 
 input{
     background-color: white;
@@ -664,6 +677,7 @@ justify-content: center;
     .logo{
         width: 45px;
     }
+
     .section_container{
         display: flex;
         flex-direction: column;
@@ -755,6 +769,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
 }
+
 .about-text{
     display: flex;
     flex: 0.5;
@@ -821,8 +836,6 @@ justify-content: center;
     
     }
 
-    
-
 
     .project_div{
         margin: .2em .1em;
@@ -851,6 +864,7 @@ justify-content: center;
         flex-direction: column;
         margin-bottom: .1em;  
     }
+
     .third-section{
         height: auto;
         display: flex;
@@ -860,9 +874,6 @@ justify-content: center;
     }
 
    
-
-  
-
     .mypics{
         width: .3em .4em;
         border-radius: 20px;
