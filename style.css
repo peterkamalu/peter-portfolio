@@ -576,6 +576,7 @@ justify-content: center;
     margin: 2em; 
     border-radius: 35px ;
     justify-content: center;
+     box-shadow: inset-5px 20px 80px -20px #a52bca88;
       
 }
 
@@ -589,6 +590,13 @@ justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
+.image-pic{
+    border-radius: 53%;
+   
+
+}
+
 .div-button{
     display: flex;
     flex-direction: row;
@@ -711,7 +719,7 @@ justify-content: center;
         display: flex;
         flex-direction: column;
         width: auto;
-        height: auto;
+        height: 130vh;
         margin: .3em;
     }
     
@@ -722,7 +730,7 @@ justify-content: center;
         flex-direction: column;
         gap: 1em;
         flex: 0.5;
-        height: auto;
+        height: 50vh;
         width: auto;
     
     }
@@ -732,8 +740,8 @@ justify-content: center;
         display: flex;
         flex-direction: column;
         flex: 0.5;
-        gap: 1em;
-        height: auto;
+        gap: 2.5em;
+        height: 60vh;
         width: auto;
     }
 
