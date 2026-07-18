@@ -12,9 +12,9 @@
     --box-shadow:-5px 11px 5px 11px  #a52bca88;
     --maroon-color: #80000;
     --buttons-color: #800000;
-    --text-design:#800000;
+    --text-color:#800000;
 
-}
+}   
 
 
 html{
@@ -419,14 +419,41 @@ ul li a:hover{
     cursor: pointer;
 }
 
-.text-design{
-    font-size: 1.6em;
-    color: var(--text-design);
+.text_design{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: .5em;
+    font-size: 1em;
+    color: var(--text-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-
+}
+.text_design > i{
+    font-size: 1.8em;
+    color: var(--text-color);
 }
 
+.text_design > a{
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: capitalize;
+}
+
+.text_design > a > i{
+    font-size: 1.8em;
+    color: var(--text-color);
+}
+
+.text_design > div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+}
+.text_design > div > span{
+    font-size: 1.2em;
+    color: var(--text-color);
+    font-style: italic;
+}
 
 
 input{
