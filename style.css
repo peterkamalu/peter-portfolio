@@ -9,11 +9,14 @@
     --primary-color:#edf2fc;
     --secondary-color: #FFF;
     --box-shadow:-5px 11px 5px 11px  #a52bca88;
-    --maroon-color: #80000;
+    --maroon-color: #800000;
     --buttons-color: #800000;
-    --t-color:#800000;
+    --text-color:#800000;
 
 }   
+
+
+/* as soon as i put text colour my contact sectio button changed from light blue to maroon color */
 
 
 html{
@@ -491,6 +494,8 @@ textarea{
     margin-top: 23em;
 }
 
+/* form-section styling begins from her line 499 */
+
 .form-section{
     background-color: var(--text-color);
 }
@@ -646,9 +651,6 @@ justify-content: center;
     flex-direction: row;
 }
 
-
-  
-
     .github-button{
         border: 2px solid;
         border-radius: 35px 0 35px 0;
@@ -671,10 +673,8 @@ justify-content: center;
         position: relative;
         cursor: pointer;
         font-weight: bold;
-
     }
-
-                  
+                
 
 @media (min-width: 80px) and (max-width: 800px){
     .hamburger{
