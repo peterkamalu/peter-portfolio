@@ -8,10 +8,12 @@
 :root{
     --primary-color:#edf2fc;
     --secondary-color: #FFF;
+    --board-color:#128b15;
     --box-shadow:-5px 11px 5px 11px  #a52bca88;
     --maroon-color: #800000;
     --buttons-color: #800000;
     --text-color:#800000;
+    --main-color:#ffffff;
 
 }   
 
@@ -96,6 +98,7 @@ header::after{
     font-size: 18px;
     font-weight: bold;
    text-transform: capitalize;
+   color: var(--board-color);
    background-color: white;
    padding: 1.5em;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -103,6 +106,8 @@ header::after{
    filter: none;
 
 }
+
+
 
 
 ul li a{
@@ -113,7 +118,7 @@ ul li a{
     background-color: white;
     text-transform: capitalize;
     font-weight: bold;
-    color: (var(--text-color));
+    color: (var(---color));
     font-size: 1.2em;
     font-family: "Archivo Black", sans-serif;
 }
@@ -313,18 +318,18 @@ ul li a:hover{
 }
 
 .contact-section{
-    background-color: var(--primary-color);
-    color: var(--primary-color);
+    
     height: auto;
     border-radius: 10px;
     padding: 1rem;
 }
 
 .form-section{
-    background-color: #dceeff;
+    background-color: var(--board-color);
     border-radius: 12px;
     padding: 0.5rem 1rem 1.5rem;
 }
+
 
 
 .input-btns{
@@ -332,7 +337,12 @@ ul li a:hover{
     padding: 2em;
     margin: 1em;
     width: 94%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--board-color);
+}
+
+.input-btns >placeholder{
+    color: var(--board-color);
 }
 .textbox-area{
     padding: 2.5em;
@@ -340,6 +350,7 @@ ul li a:hover{
     font-size: 1em;
     border-radius: 34px 34px 34px 0;
     border: none;
+    color: var(--board-color);
 
 }
 
@@ -394,10 +405,11 @@ ul li a:hover{
     border: 1px solid;
     padding: 1em;
     border-radius: 20px;
-     background-color:rgb(233, 233, 238) ;
-    box-shadow:-5px 11px 5px 11px(var(--text-color)) ;
+    /*  background-color:rgb(233, 233, 238) ; */
+    background-color: var(--board-color);
     color: var(--text-color);
-    color: var(--text-color);
+    
+
  
 }
 
@@ -406,10 +418,13 @@ ul li a:hover{
     height: 37vh;
     border: 1px solid;
     padding: 1.3em;
-     background-color:rgb(233, 233, 238) ;
+    /*  background-color:rgb(233, 233, 238) ; */
+     background-color: var(--board-color);
+     box-shadow:-5px 11px 5px 11px rgb(233, 233, 238);  
     border-radius: 20px;
     box-shadow: (var(--text-color));  
      color: (var(--text-color));
+      
 }
 
 /*   box-shadow:-5px 11px 5px 11px  #a52bca88 ; the previous box shadow in my second-child and firstchild div */
@@ -431,24 +446,24 @@ ul li a:hover{
     gap: 1em;
     padding: .5em;
     font-size: 1em;
-    color: var(--text-color);
+    color: var(--main-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .text_design > i{
     font-size: 1.8em;
-    color: var(--text-color);
+    color: var(--main-color);
 }
 
 .text_design > a{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--main-color);
     text-transform: capitalize;
 }
 
 .text_design > a > i{
     font-size: 1.8em;
-    color: var(--text-color);
+    color: var(--main-color);
 }
 
 .text_design > div{
@@ -459,7 +474,7 @@ ul li a:hover{
 
 .text_design > div > span{
     font-size: 1.2em;
-    color: var(--text-color);
+    color: var(--main-color);
     font-style: italic;
 }
 
@@ -485,7 +500,11 @@ textarea{
     cursor: pointer;
     padding: 1.75em;
     margin: 0.50em;
+    font-size: 0.70em;
+    font-weight: 300;
 }
+
+
 
 .resume{
     position: relative;
@@ -496,12 +515,11 @@ textarea{
 
 /* form-section styling begins from her line 499 */
 
-.form-section{
-    background-color: var(--text-color);
-}
+
 
 .form-btn:hover{
     background-color: white;
+    color: var(--board-color);
     
 }
 .third-section{
@@ -522,7 +540,7 @@ textarea{
     padding: 0em;
     text-align: center;
     border-radius: 30px 0 30px 0;
-     background-color: var(--primary-color);
+     background-color: var(--board-color);
     color:(var(--secondary-color));
     height: 80vh;
     width: auto;
@@ -537,8 +555,9 @@ textarea{
     cursor: pointer;
     padding: 2em;
     margin: 1em 1em;
-     box-shadow:-5px 11px 5px 11px (var(--secondary-color)) ;
     flex: .33;
+    background-color: var(--board-color);
+     box-shadow:-5px 11px 5px 11px rgb(233, 233, 238);
 }
 
 .img-titlediv2{
@@ -550,7 +569,10 @@ textarea{
     padding: 2em;
     margin: 1em 1em;
     flex: .33;
-     box-shadow:-5px 11px 5px 11px (var(--secondary-color)) ;
+    background-color: var(--board-color);
+    /*   box-shadow:-5px 11px 5px 11px (var(--secondary-color)) ; */
+      background-color: var(--board-color);
+     box-shadow:-5px 11px 5px 11px rgb(233, 233, 238);
 
 }
 
@@ -562,7 +584,9 @@ textarea{
     cursor: pointer;
     padding: 2em;
     margin: 1em 1em;
-     box-shadow:-5px 11px 5px 11px (var(--secondary-color)) ;
+    /* box-shadow:-5px 11px 5px 11px (var(--secondary-color)) ; */ 
+      background-color: var(--board-color);
+     box-shadow:-5px 11px 5px 11px rgb(233, 233, 238);
     flex: .33;
 }
 
@@ -604,13 +628,17 @@ justify-content: center;
     flex: 1.0;
     justify-content: center;
      background-color: var(--secondary-color);
-    color:(var(--text-color));
+    color:(var(--board-color));
     
 }
 .about-div{
     display: flex;
     flex-direction: row;
     height: 70vh;
+}
+.about-paragraph{
+    color: var(--board-color);
+     font-family: "Archivo Black", sans-serif;
 }
 
 .about-image{
@@ -623,8 +651,12 @@ justify-content: center;
       
 }
 .image_box{
-    color: (var(--text-color));
-    box-shadow: inset-5px 20px 80px -20px (var(--text-color));
+    background-color: #Ffffffff;
+    color: #128b15;
+    border-radius: 60%;
+    
+     box-shadow:-5px 11px 5px 11px var(--board-color);
+
 }
 
 .image-pic{
@@ -637,6 +669,7 @@ justify-content: center;
 .about-text{
     display: flex;
     flex: .5;
+    color: var(--text-color);
     flex-direction: column;
     font-size: 1.7em;
     justify-content: center;
@@ -654,11 +687,12 @@ justify-content: center;
     .github-button{
         border: 2px solid;
         border-radius: 35px 0 35px 0;
-        background-color:none;
+          background-color: var(--main-color);
+        color: var(--board-color);
         padding: 1em ;
         width: 100%;
-        background-color:rgb(200, 200, 215) ;
-    
+        /*  background-color:rgb(200, 200, 215) ; */
+        /* background:none */
         cursor: pointer;
         position: relative;
         margin-left: 0em;
@@ -669,7 +703,10 @@ justify-content: center;
         border: 2px solid;
         border-radius: 35px;
         padding: 1em;
-        background-color:rgb(200, 200, 215) ;
+         /*   background-color:rgb(200, 200, 215) ;  */
+
+         background-color: var(--main-color);
+        color: var(--board-color);
         position: relative;
         cursor: pointer;
         font-weight: bold;
