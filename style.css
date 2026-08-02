@@ -330,8 +330,6 @@ ul li a:hover{
     padding: 0.5rem 1rem 1.5rem;
 }
 
-
-
 .input-btns{
     border-radius: 30px 30px 30px 0;
     padding: 2em;
@@ -344,6 +342,7 @@ ul li a:hover{
 .input-btns >placeholder{
     color: var(--board-color);
 }
+
 .textbox-area{
     padding: 2.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -389,8 +388,6 @@ ul li a:hover{
     background-color: var(--secondary-color);
     color:(var(--primary-color));
     margin-bottom: 2em;
-      
-    
 
 }
 
@@ -408,8 +405,6 @@ ul li a:hover{
     /*  background-color:rgb(233, 233, 238) ; */
     background-color: var(--board-color);
     color: var(--text-color);
-    
-
  
 }
 
@@ -478,7 +473,6 @@ ul li a:hover{
     font-style: italic;
 }
 
-
 input{
     background-color: white;
     width: 90%;
@@ -486,6 +480,7 @@ input{
     height: 2.3em;
     border: none;
 }
+
 textarea{
     width: 90%;
     border: 1px solid; 
@@ -503,9 +498,6 @@ textarea{
     font-size: 0.70em;
     font-weight: 300;
 }
-
-
-
 .resume{
     position: relative;
     justify-content:center ;
@@ -514,8 +506,6 @@ textarea{
 }
 
 /* form-section styling begins from her line 499 */
-
-
 
 .form-btn:hover{
     background-color: white;
@@ -648,12 +638,14 @@ justify-content: center;
     border-radius: 35px ;
     justify-content: center;
      box-shadow: inset-5px 20px 80px -20px (var(--text-color));
+     width: auto;
+     height: auto;
       
 }
 .image_box{
     background-color: #Ffffffff;
     color: #128b15;
-    border-radius: 60%;
+    border-radius: 49%;
     
      box-shadow:-5px 11px 5px 11px var(--board-color);
 
@@ -661,6 +653,8 @@ justify-content: center;
 
 .image-pic{
     border-radius: 57%;
+    width: 44;
+    height: 35;
    
 
 }
@@ -803,9 +797,6 @@ justify-content: center;
         height: 130vh;
         margin: .3em;
     }
-    
-
-    
     .first-childdiv{
         display: flex;
         flex-direction: column;
@@ -813,10 +804,8 @@ justify-content: center;
         padding: 2em;
         flex: 0.5;
         height: 50vh;
-        width: auto;
-    
+        width: auto;  
     }
-
 
     .second-childdiv{
         display: flex;
@@ -919,7 +908,6 @@ justify-content: center;
     
     }
 
-
     .project_div{
         margin: .2em .1em;
         height: auto;
@@ -978,6 +966,22 @@ justify-content: center;
         margin-bottom: .2em;
         position: relative;
         height: .1em;
+    }
+
+    .image_box{
+        height: auto;
+        width: auto;
+        border-radius: 50% ;
+        justify-self: center;
+        margin-top: 4em;
+    }
+    .image-pic{
+        height: auto;
+        width: 220px;
+        margin: .2em;
+        padding: .1em;
+
+        
     }
 
 
