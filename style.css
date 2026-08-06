@@ -12,8 +12,10 @@
     --box-shadow:-5px 11px 5px 11px  #a52bca88;
     --maroon-color: #800000;
     --buttons-color: #800000;
-    --text-color:#800000;
+    --text-color:#000000;
     --main-color:#ffffff;
+
+
 
 }   
 
@@ -118,7 +120,7 @@ ul li a{
     background-color: white;
     text-transform: capitalize;
     font-weight: bold;
-    color: (var(---color));
+    color: var(--text-color);
     font-size: 1.2em;
     font-family: "Archivo Black", sans-serif;
 }
@@ -339,8 +341,8 @@ ul li a:hover{
     color: var(--board-color);
 }
 
-.input-btns >placeholder{
-    color: var(--board-color);
+.input-btns > placeholder{
+    color: var(--text-color);
 }
 
 .textbox-area{
@@ -349,7 +351,7 @@ ul li a:hover{
     font-size: 1em;
     border-radius: 34px 34px 34px 0;
     border: none;
-    color: var(--board-color);
+    color: var(--text-color);
 
 }
 
@@ -447,31 +449,33 @@ ul li a:hover{
 
 .text_design > i{
     font-size: 1.8em;
-    color: var(--main-color);
+    color: var(--text-color);
 }
 
 .text_design > a{
     text-decoration: none;
-    color: var(--main-color);
+    color: var(--text-color);
     text-transform: capitalize;
 }
 
 .text_design > a > i{
     font-size: 1.8em;
-    color: var(--main-color);
+    color: var(--text-color);
 }
 
 .text_design > div{
     display: flex;
     flex-direction: column;
     gap: 0.1em;
+    color: var(--text-color);
 }
 
 .text_design > div > span{
     font-size: 1.2em;
-    color: var(--main-color);
+    color: var(--text-color);
     font-style: italic;
 }
+
 
 input{
     background-color: white;
@@ -627,7 +631,7 @@ justify-content: center;
     height: 70vh;
 }
 .about-paragraph{
-    color: var(--board-color);
+    color: var(--text-color);
      font-family: "Archivo Black", sans-serif;
 }
 
@@ -655,10 +659,7 @@ justify-content: center;
     border-radius: 57%;
     width: 44;
     height: 35;
-   
-
 }
-
 
 .about-text{
     display: flex;
@@ -682,7 +683,7 @@ justify-content: center;
         border: 2px solid;
         border-radius: 35px 0 35px 0;
           background-color: var(--main-color);
-        color: var(--board-color);
+        color: var(--text-color);
         padding: 1em ;
         width: 100%;
         /*  background-color:rgb(200, 200, 215) ; */
@@ -700,10 +701,14 @@ justify-content: center;
          /*   background-color:rgb(200, 200, 215) ;  */
 
          background-color: var(--main-color);
-        color: var(--board-color);
+        color: var(--text-color);
         position: relative;
         cursor: pointer;
         font-weight: bold;
+    }
+
+    .demo-button > span{
+        color: var(--text-color);
     }
                 
 
