@@ -8,7 +8,7 @@
 :root{
     --primary-color:#edf2fc;
     --secondary-color: #FFF;
-    --board-color:#128b15;
+    --board-color:#c018A8;
     --box-shadow:-5px 11px 5px 11px  #a52bca88;
     --maroon-color: #800000;
     --buttons-color: #800000;
@@ -259,6 +259,7 @@ ul li a:hover{
     flex-direction: column;
     cursor: pointer;
     background-color: #fff;
+    color: #c018A8;
     border: 20px;
     padding: 0;
  
@@ -605,7 +606,7 @@ justify-content: center;
 
 .footer{
     background-color:lightgray;
-    color:(var(--text-color));
+    color:(var(--board-color));
     text-align: center;
     padding: 30px 0;
     width: 100%;
