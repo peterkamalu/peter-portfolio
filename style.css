@@ -399,8 +399,9 @@ ul li a:hover{
     border-radius: 20px;
     /*  background-color:rgb(233, 233, 238) ; */
     background-color: var(--board-color);
-    color: var(--text-color);
- 
+    color: var(--board-color);
+      box-shadow:-5px 10px 5px 10px rgb(233, 233, 238,230 );
+      background-color: var(--board-color);
 }
 
 .second-childdiv{
@@ -412,8 +413,9 @@ ul li a:hover{
      background-color: var(--board-color);
      box-shadow:-5px 11px 5px 11px rgb(233, 233, 238);  
     border-radius: 20px;
-    box-shadow: (var(--text-color));  
-     color: (var(--text-color));
+   
+          color: var(--board-color);
+     box-shadow:-5px 11px 5px 11px rgb(233, 233, 238,230 );
       
 }
 
@@ -543,8 +545,12 @@ textarea{
     padding: 2em;
     margin: 1em 1em;
     flex: .33;
+      background-color: var(--board-color);
     color: var(--board-color);
      box-shadow:-5px 11px 5px 11px rgb(233, 233, 238);
+     
+   
+     
 }
 
 .img-titlediv2{
@@ -557,9 +563,13 @@ textarea{
     margin: 1em 1em;
     flex: .33;
     /*   box-shadow:-5px 11px 5px 11px (var(--secondary-color)) ; */
-      color: var(--board-color);
-      box-shadow:-5px 11px 5px 11px rgb(233, 233, 238);
-}
+     background-color: var(--board-color);
+    color: var(--board-color);
+     box-shadow:-5px 11px 5px 11px rgb(233, 233, 238);
+
+     }
+
+      
 
 .img-titlediv3{
     border: 1px solid;
@@ -570,6 +580,7 @@ textarea{
     padding: 2em;
     margin: 1em 1em;
     flex: .33;
+    background-color: var(--board-color);
     color: var(--board-color);
      box-shadow:-5px 11px 5px 11px rgb(233, 233, 238);
 }
@@ -624,6 +635,8 @@ justify-content: center;
 .about-paragraph{
     color: var(--text-color);
      font-family: "Archivo Black", sans-serif;
+     font-size: 0.8980em;
+     
 }
 
 .about-image{
@@ -792,15 +805,17 @@ justify-content: center;
         width: auto;
         height: 130vh;
         margin: .3em;
+        gap: 1.3em;
     }
     .first-childdiv{
         display: flex;
         flex-direction: column;
-        gap: 1em;
+        gap: 1.3em;
         padding: 2em;
         flex: 0.5;
         height: 50vh;
         width: auto;  
+         box-shadow:-5px 10px 5px 10px rgb(233, 233, 238,230 );
     }
 
     .second-childdiv{
